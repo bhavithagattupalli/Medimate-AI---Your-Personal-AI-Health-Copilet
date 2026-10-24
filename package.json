@@ -1,11 +1,11 @@
 {
-  "name": "react-example",
+  "name": "medimate-ai",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "vite build",
+    "build": "vite build && esbuild server/api-entry.ts --bundle --platform=node --format=esm --packages=external --outfile=api/index.js",
     "start": "tsx server.ts --prod",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",

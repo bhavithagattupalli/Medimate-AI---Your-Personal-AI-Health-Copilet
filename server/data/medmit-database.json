@@ -12,7 +12,7 @@
       "isEmailVerified": true,
       "isPhoneVerified": true,
       "createdAt": "2026-10-14T15:35:40.660Z",
-      "updatedAt": "2026-10-24T16:52:10.194Z",
+      "updatedAt": "2026-10-24T17:01:49.571Z",
       "failedLoginAttempts": 0,
       "consents": {
         "terms": true,
@@ -21,7 +21,7 @@
         "timestamp": "2026-10-14T15:35:40.660Z"
       },
       "lockUntil": null,
-      "lastLoginAt": "2026-10-24T16:52:10.194Z"
+      "lastLoginAt": "2026-10-24T17:01:49.571Z"
     },
     {
       "id": "usr-seed-doctor-001",
@@ -2254,7 +2254,7 @@
       "rememberMe": true,
       "id": "sess-1792859129263-l8asq9",
       "createdAt": "2026-10-24T16:25:29.263Z",
-      "lastActiveAt": "2026-10-24T16:56:34.360Z"
+      "lastActiveAt": "2026-10-24T17:00:30.353Z"
     },
     {
       "userId": "usr-seed-patient-001",
@@ -2266,9 +2266,34 @@
       "id": "sess-1792860730196-kypsig",
       "createdAt": "2026-10-24T16:52:10.196Z",
       "lastActiveAt": "2026-10-24T16:52:10.196Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "e1f1eb0c973dddb84cc5ea0aa54f560ca1c76bcfa76c1b49df1b47426e54845c",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "ipAddress": "127.0.0.1",
+      "expiresAt": "2026-11-23T17:01:49.575Z",
+      "rememberMe": true,
+      "id": "sess-1792861309575-64degx",
+      "createdAt": "2026-10-24T17:01:49.575Z",
+      "lastActiveAt": "2026-10-24T17:03:44.721Z"
     }
   ],
   "authAuditLogs": [
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792861309575-64degx",
+        "rememberMe": true
+      },
+      "id": "audit-1792861309579-w7ys",
+      "timestamp": "2026-10-24T17:01:49.579Z"
+    },
     {
       "userId": "usr-seed-patient-001",
       "email": "patient@medimate.ai",

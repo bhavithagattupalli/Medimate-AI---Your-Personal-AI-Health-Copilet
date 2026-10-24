@@ -1,6 +1,5 @@
 import express, { Request, Response } from 'express';
 import cookieParser from 'cookie-parser';
-import { createServer as createViteServer } from 'vite';
 import { GoogleGenAI, Type, ThinkingLevel } from '@google/genai';
 import dotenv from 'dotenv';
 import path from 'path';
@@ -1619,6 +1618,7 @@ app.post('/api/user/reset-account', authenticateUser, (_req: Request, res: Respo
 // Configure Vite middleware or static serving
 async function startServer() {
   if (!isProduction) {
+    const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa',
