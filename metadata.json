@@ -1,0 +1,6 @@
+{
+  "name": "MediMate AI",
+  "description": "Connected AI-powered healthcare assistant for symptom triage, medical report analysis, and nearby clinical care navigation.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

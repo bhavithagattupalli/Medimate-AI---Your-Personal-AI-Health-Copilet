@@ -1,0 +1,4570 @@
+{
+  "version": 3,
+  "users": [
+    {
+      "id": "usr-seed-patient-001",
+      "fullName": "K. S. Sharma",
+      "email": "patient@medimate.ai",
+      "phoneNumber": "+91 98480 12345",
+      "dateOfBirth": "1978-05-14",
+      "passwordHash": "$2b$12$7QtOUWYaqWS0DS7ILWMgLuBSzo9QXfTLNgbJuqF1fdxgbvoWUHaq.",
+      "role": "patient",
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-10-14T15:35:40.660Z",
+      "updatedAt": "2026-10-24T16:52:10.194Z",
+      "failedLoginAttempts": 0,
+      "consents": {
+        "terms": true,
+        "privacyPolicy": true,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-14T15:35:40.660Z"
+      },
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T16:52:10.194Z"
+    },
+    {
+      "id": "usr-seed-doctor-001",
+      "fullName": "Dr. Ramesh Gupta, MD, DM",
+      "email": "dr.ramesh.gupta@carehospital.in",
+      "phoneNumber": "+91 98490 23456",
+      "passwordHash": "$2b$12$xa6MRNjyhVhAPjHzw/0sueZO2eryfML/ciChwuSqOa2T/z7srilWe",
+      "role": "doctor",
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-10-04T15:35:40.660Z",
+      "updatedAt": "2026-10-24T03:35:40.660Z",
+      "failedLoginAttempts": 0,
+      "consents": {
+        "terms": true,
+        "privacyPolicy": true,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-04T15:35:40.660Z"
+      }
+    },
+    {
+      "id": "usr-seed-admin-001",
+      "fullName": "System Security Administrator",
+      "email": "admin@medimate.ai",
+      "phoneNumber": "+91 99999 88888",
+      "passwordHash": "$2b$12$A9bH5hSueYD8grzMBnDVHuxjIy7eCKAUySU0oATvM6ylHvSpS4ykW",
+      "role": "admin",
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-09-24T15:35:40.660Z",
+      "updatedAt": "2026-10-24T15:41:16.762Z",
+      "failedLoginAttempts": 0,
+      "consents": {
+        "terms": true,
+        "privacyPolicy": true,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-09-24T15:35:40.660Z"
+      },
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:41:16.762Z"
+    },
+    {
+      "fullName": "Priya Sharma",
+      "email": "priya.sharma.1792856140680@example.com",
+      "phoneNumber": "+91 98765 43210",
+      "dateOfBirth": "1992-06-15",
+      "passwordHash": "$2b$12$bklkpNigbFyRa/ObZM1HMeECmWovDZwyJL0c3a/Y8ncqyKFvD4/0i",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:35:41.030Z"
+      },
+      "id": "usr-1792856141030-t13g6",
+      "createdAt": "2026-10-24T15:35:41.030Z",
+      "updatedAt": "2026-10-24T15:35:41.030Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Duplicate Tester",
+      "email": "duplicate.1792856141065@example.com",
+      "phoneNumber": "+91 91234 56789",
+      "passwordHash": "$2b$12$bDDrSSVaIHH9RZzLQ5wlNeQb.fJk5T3hfpRYPCelWlYDxtIcQguMu",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:35:41.366Z"
+      },
+      "id": "usr-1792856141366-lgcmi",
+      "createdAt": "2026-10-24T15:35:41.366Z",
+      "updatedAt": "2026-10-24T15:35:41.366Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Verify Tester",
+      "email": "verify.test.1792856141388@example.com",
+      "phoneNumber": "+91 98765 11111",
+      "passwordHash": "$2b$12$1lKelrvnU8RpwTN8qwxbDezmjTZX93GqxCriL2DS4Pn3Qm2nbgYcO",
+      "role": "patient",
+      "isEmailVerified": true,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:35:41.851Z"
+      },
+      "id": "usr-1792856141851-br1f0",
+      "createdAt": "2026-10-24T15:35:41.851Z",
+      "updatedAt": "2026-10-24T15:35:41.863Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Unverified User",
+      "email": "unverified.1792856142176@example.com",
+      "phoneNumber": "+91 98765 22222",
+      "passwordHash": "$2b$12$sYGS3e0qu7BWeIpyd0Xlle0u7pqavxMc.i/vF9iZ6MKRzhrIt8B/i",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:35:42.472Z"
+      },
+      "id": "usr-1792856142472-7rzt1",
+      "createdAt": "2026-10-24T15:35:42.472Z",
+      "updatedAt": "2026-10-24T15:35:42.472Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Reset Tester",
+      "email": "reset.tester.1792856142755@example.com",
+      "phoneNumber": "+91 98765 33333",
+      "passwordHash": "$2b$12$mNIRIT4l8eUNPiWd5kcitOQXjacyQkYXaXDwoYCkO35/40Ma1LkQW",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:35:43.021Z"
+      },
+      "id": "usr-1792856143021-a65wc",
+      "createdAt": "2026-10-24T15:35:43.021Z",
+      "updatedAt": "2026-10-24T15:35:43.939Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:35:43.939Z"
+    },
+    {
+      "fullName": "Brute Target",
+      "email": "brute.target.1792856145177@example.com",
+      "phoneNumber": "+91 99999 88888",
+      "passwordHash": "$2b$12$2hAaIAetWmdaRmapDFWpFONJN.xlVWgJd9LabL.StV52dn//IVL8u",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:35:45.502Z"
+      },
+      "id": "usr-1792856145502-bujwl",
+      "createdAt": "2026-10-24T15:35:45.502Z",
+      "updatedAt": "2026-10-24T15:35:46.993Z",
+      "failedLoginAttempts": 5,
+      "lockUntil": "2026-10-24T15:50:46.993Z"
+    },
+    {
+      "fullName": "Patient Alpha",
+      "email": "patient.alpha.1792856147012@example.com",
+      "phoneNumber": "+91 91111 22222",
+      "passwordHash": "$2b$12$mM0bf2J62kY2Z3s4pn573ORuVK3cYADuQzkENGz/PQ1CzHcvuO7he",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:35:47.310Z"
+      },
+      "id": "usr-1792856147310-2x8yn",
+      "createdAt": "2026-10-24T15:35:47.310Z",
+      "updatedAt": "2026-10-24T15:35:47.918Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:35:47.918Z"
+    },
+    {
+      "fullName": "Patient Beta",
+      "email": "patient.beta.1792856147012@example.com",
+      "phoneNumber": "+91 93333 44444",
+      "passwordHash": "$2b$12$Kld/yhyb6L5y/WseN3INYO01uAEcqOZpCpcnyeb27yp34hknY8AGC",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:35:47.618Z"
+      },
+      "id": "usr-1792856147618-x52kr",
+      "createdAt": "2026-10-24T15:35:47.618Z",
+      "updatedAt": "2026-10-24T15:35:48.193Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:35:48.193Z"
+    },
+    {
+      "fullName": "Hacker User",
+      "email": "hacker.1792856148203@example.com",
+      "phoneNumber": "+91 99999 00000",
+      "passwordHash": "$2b$12$yMuncpV8rIGWacIq.jnqoODa/ECS/.nCUFr6P17u99DDv3FkJrT4G",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:35:48.476Z"
+      },
+      "id": "usr-1792856148476-ukwh9",
+      "createdAt": "2026-10-24T15:35:48.476Z",
+      "updatedAt": "2026-10-24T15:35:48.476Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Priya Sharma",
+      "email": "priya.sharma.1792856330926@example.com",
+      "phoneNumber": "+91 98765 43210",
+      "dateOfBirth": "1992-06-15",
+      "passwordHash": "$2b$12$002g1hfIcDMFr1GCffWAfe.6M/ULt63bPjDdiEK6PuJqVX.CYHuMu",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:38:51.273Z"
+      },
+      "id": "usr-1792856331273-bs5jt",
+      "createdAt": "2026-10-24T15:38:51.273Z",
+      "updatedAt": "2026-10-24T15:38:51.273Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Duplicate Tester",
+      "email": "duplicate.1792856331310@example.com",
+      "phoneNumber": "+91 91234 56789",
+      "passwordHash": "$2b$12$qx0WvJzLtwzI4gqKfJHFau3nVquFnIX1vBJ5Izd99AoDAIvaFJ5EC",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:38:51.588Z"
+      },
+      "id": "usr-1792856331588-xycay",
+      "createdAt": "2026-10-24T15:38:51.588Z",
+      "updatedAt": "2026-10-24T15:38:51.588Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Verify Tester",
+      "email": "verify.test.1792856331610@example.com",
+      "phoneNumber": "+91 98765 11111",
+      "passwordHash": "$2b$12$GLas/t32EWMduSotLMjlMeLcc.C6XUSR4SspMtNgwJHqGSxJQ.w9a",
+      "role": "patient",
+      "isEmailVerified": true,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:38:51.977Z"
+      },
+      "id": "usr-1792856331977-u97c4",
+      "createdAt": "2026-10-24T15:38:51.977Z",
+      "updatedAt": "2026-10-24T15:38:51.996Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Unverified User",
+      "email": "unverified.1792856332584@example.com",
+      "phoneNumber": "+91 98765 22222",
+      "passwordHash": "$2b$12$0c8UTdQhNtp0P8354QMK0uSXWhGI2ATNNezpc3zyweT6pdkNiPwz.",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:38:52.906Z"
+      },
+      "id": "usr-1792856332906-25jme",
+      "createdAt": "2026-10-24T15:38:52.906Z",
+      "updatedAt": "2026-10-24T15:38:52.906Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Reset Tester",
+      "email": "reset.tester.1792856333200@example.com",
+      "phoneNumber": "+91 98765 33333",
+      "passwordHash": "$2b$12$UTzDTCaEw5zV6npVlc37uesDljTMVcfOkB.aFWH93lacfKK.8.mxO",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:38:53.492Z"
+      },
+      "id": "usr-1792856333492-y6eql",
+      "createdAt": "2026-10-24T15:38:53.492Z",
+      "updatedAt": "2026-10-24T15:38:54.350Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:38:54.350Z"
+    },
+    {
+      "fullName": "Brute Target",
+      "email": "brute.target.1792856335442@example.com",
+      "phoneNumber": "+91 99999 88888",
+      "passwordHash": "$2b$12$WDXzawM7b.iiSk.dKIV.VOqAt2a336ZzBDz2KShpVDcpXfvRmQyDq",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:38:55.710Z"
+      },
+      "id": "usr-1792856335710-frpyg",
+      "createdAt": "2026-10-24T15:38:55.710Z",
+      "updatedAt": "2026-10-24T15:38:57.102Z",
+      "failedLoginAttempts": 5,
+      "lockUntil": "2026-10-24T15:53:57.102Z"
+    },
+    {
+      "fullName": "Patient Alpha",
+      "email": "patient.alpha.1792856337116@example.com",
+      "phoneNumber": "+91 91111 22222",
+      "passwordHash": "$2b$12$VbpJk75OA9SyTwcqfs.VKeIoUDMvMPnvQPQicK9WZpYSIygBBBtM2",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:38:57.385Z"
+      },
+      "id": "usr-1792856337385-eoncj",
+      "createdAt": "2026-10-24T15:38:57.385Z",
+      "updatedAt": "2026-10-24T15:38:57.942Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:38:57.942Z"
+    },
+    {
+      "fullName": "Patient Beta",
+      "email": "patient.beta.1792856337116@example.com",
+      "phoneNumber": "+91 93333 44444",
+      "passwordHash": "$2b$12$VcTIaI4hu92E4JZty954.ekt9W1sBPdDB6vDNOYmmzUq.5CMJA/bK",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:38:57.663Z"
+      },
+      "id": "usr-1792856337663-q44rt",
+      "createdAt": "2026-10-24T15:38:57.663Z",
+      "updatedAt": "2026-10-24T15:38:58.221Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:38:58.221Z"
+    },
+    {
+      "fullName": "Hacker User",
+      "email": "hacker.1792856338230@example.com",
+      "phoneNumber": "+91 99999 00000",
+      "passwordHash": "$2b$12$YLUjc1eNmpEDWVmGkq5eveW6soPnru7A/I7mklfOL43ATu.Un88Gi",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:38:58.495Z"
+      },
+      "id": "usr-1792856338495-22eda",
+      "createdAt": "2026-10-24T15:38:58.495Z",
+      "updatedAt": "2026-10-24T15:38:58.495Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Priya Sharma",
+      "email": "priya.sharma.1792856421913@example.com",
+      "phoneNumber": "+91 98765 43210",
+      "dateOfBirth": "1992-06-15",
+      "passwordHash": "$2b$12$oNzR1ZXdDZLQECIJCwkUqOOYpJJBeXzqCa4XdoZQfp4nhUZRZU6eG",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:22.234Z"
+      },
+      "id": "usr-1792856422234-hj893",
+      "createdAt": "2026-10-24T15:40:22.234Z",
+      "updatedAt": "2026-10-24T15:40:22.234Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Duplicate Tester",
+      "email": "duplicate.1792856422267@example.com",
+      "phoneNumber": "+91 91234 56789",
+      "passwordHash": "$2b$12$2vATrqzOJiflBtAcW400BOmV5ImyZ6giH/gFbCAjpJ9/dhA78GiQC",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:22.531Z"
+      },
+      "id": "usr-1792856422531-jqofx",
+      "createdAt": "2026-10-24T15:40:22.531Z",
+      "updatedAt": "2026-10-24T15:40:22.531Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Verify Tester",
+      "email": "verify.test.1792856422559@example.com",
+      "phoneNumber": "+91 98765 11111",
+      "passwordHash": "$2b$12$ZgOjJVMG6MChCgj/zxorjeHW5AyRmwlAwq/UxgKAJuVMBQi7lRK.q",
+      "role": "patient",
+      "isEmailVerified": true,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:22.889Z"
+      },
+      "id": "usr-1792856422889-tn4l6",
+      "createdAt": "2026-10-24T15:40:22.889Z",
+      "updatedAt": "2026-10-24T15:40:22.909Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Unverified User",
+      "email": "unverified.1792856423405@example.com",
+      "phoneNumber": "+91 98765 22222",
+      "passwordHash": "$2b$12$H7tnm9HP/BmVCGDEuj2K8ODmdIozQyCvjUTuUdKwyPG41fxgVhcTK",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:23.644Z"
+      },
+      "id": "usr-1792856423644-i4nb2",
+      "createdAt": "2026-10-24T15:40:23.644Z",
+      "updatedAt": "2026-10-24T15:40:23.644Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Reset Tester",
+      "email": "reset.tester.1792856423881@example.com",
+      "phoneNumber": "+91 98765 33333",
+      "passwordHash": "$2b$12$/QtdAnf52SIEHjPen8kaJOQFD4fEkG3aTZlitbLOqvOozQwmxBwrG",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:24.128Z"
+      },
+      "id": "usr-1792856424128-pt2lz",
+      "createdAt": "2026-10-24T15:40:24.128Z",
+      "updatedAt": "2026-10-24T15:40:24.860Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:40:24.860Z"
+    },
+    {
+      "fullName": "Brute Target",
+      "email": "brute.target.1792856425819@example.com",
+      "phoneNumber": "+91 99999 88888",
+      "passwordHash": "$2b$12$MHVvvZidI3BPCGOV6zceuejZ9X3dTTosVgL7djPvDlLDXBYeOUoUm",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:26.052Z"
+      },
+      "id": "usr-1792856426052-e8dmz",
+      "createdAt": "2026-10-24T15:40:26.052Z",
+      "updatedAt": "2026-10-24T15:40:27.269Z",
+      "failedLoginAttempts": 5,
+      "lockUntil": "2026-10-24T15:55:27.269Z"
+    },
+    {
+      "fullName": "Patient Alpha",
+      "email": "patient.alpha.1792856427280@example.com",
+      "phoneNumber": "+91 91111 22222",
+      "passwordHash": "$2b$12$/VZ/2T9pCntAuH7cOn1ZMeUDtUTq2gASphsEHmMcZWQOOFRrauJZ.",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:27.512Z"
+      },
+      "id": "usr-1792856427512-k2fn6",
+      "createdAt": "2026-10-24T15:40:27.512Z",
+      "updatedAt": "2026-10-24T15:40:27.991Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:40:27.991Z"
+    },
+    {
+      "fullName": "Patient Beta",
+      "email": "patient.beta.1792856427280@example.com",
+      "phoneNumber": "+91 93333 44444",
+      "passwordHash": "$2b$12$xCsYLH3S8SGRge7TVSY.eeEn/5EMndREZQaAV/3QB7E9knzZQWEQy",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:27.752Z"
+      },
+      "id": "usr-1792856427752-r35q4",
+      "createdAt": "2026-10-24T15:40:27.752Z",
+      "updatedAt": "2026-10-24T15:40:28.229Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:40:28.229Z"
+    },
+    {
+      "fullName": "Hacker User",
+      "email": "hacker.1792856428239@example.com",
+      "phoneNumber": "+91 99999 00000",
+      "passwordHash": "$2b$12$XugJh5J5E.ZAkL88ODBQGOWUcV6m4MH5lwXgKJe/FoyWmUhY4E4XC",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:28.474Z"
+      },
+      "id": "usr-1792856428474-o5vot",
+      "createdAt": "2026-10-24T15:40:28.474Z",
+      "updatedAt": "2026-10-24T15:40:28.474Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Priya Sharma",
+      "email": "priya.sharma.1792856446241@example.com",
+      "phoneNumber": "+91 98765 43210",
+      "dateOfBirth": "1992-06-15",
+      "passwordHash": "$2b$12$1SvS.ASt9UhIpA66Culr.uFWunygMLexDBSNBaXR0wFxcBNwweCWC",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:46.569Z"
+      },
+      "id": "usr-1792856446569-vyvbe",
+      "createdAt": "2026-10-24T15:40:46.569Z",
+      "updatedAt": "2026-10-24T15:40:46.569Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Duplicate Tester",
+      "email": "duplicate.1792856446599@example.com",
+      "phoneNumber": "+91 91234 56789",
+      "passwordHash": "$2b$12$O1GHiHc9reZoIsJW7j1Rledj.YNiiU6kV4Ujh/sm1eR2vRPwwfXt6",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:46.850Z"
+      },
+      "id": "usr-1792856446850-m8hdk",
+      "createdAt": "2026-10-24T15:40:46.850Z",
+      "updatedAt": "2026-10-24T15:40:46.850Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Verify Tester",
+      "email": "verify.test.1792856446875@example.com",
+      "phoneNumber": "+91 98765 11111",
+      "passwordHash": "$2b$12$ybvsOAH7in55M0Y5aX/OY.iVXTOLIpXWyOylu6JTKIx7pA.PaixaC",
+      "role": "patient",
+      "isEmailVerified": true,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:47.193Z"
+      },
+      "id": "usr-1792856447193-smz6u",
+      "createdAt": "2026-10-24T15:40:47.193Z",
+      "updatedAt": "2026-10-24T15:40:47.211Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Unverified User",
+      "email": "unverified.1792856447712@example.com",
+      "phoneNumber": "+91 98765 22222",
+      "passwordHash": "$2b$12$4XJLqW0c9k/jNcT.wANjROkW/6p6et6AavBj5k6IHe9eY34Dt7Jw.",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:47.949Z"
+      },
+      "id": "usr-1792856447949-8gj4v",
+      "createdAt": "2026-10-24T15:40:47.949Z",
+      "updatedAt": "2026-10-24T15:40:47.949Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Reset Tester",
+      "email": "reset.tester.1792856448191@example.com",
+      "phoneNumber": "+91 98765 33333",
+      "passwordHash": "$2b$12$qsMirh4tinyzb2tf11H0rOeBeQuS0J1AOijdlslL7bD9VB5cbEGEC",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:48.430Z"
+      },
+      "id": "usr-1792856448430-faxim",
+      "createdAt": "2026-10-24T15:40:48.430Z",
+      "updatedAt": "2026-10-24T15:40:49.174Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:40:49.174Z"
+    },
+    {
+      "fullName": "Brute Target",
+      "email": "brute.target.1792856450131@example.com",
+      "phoneNumber": "+91 99999 88888",
+      "passwordHash": "$2b$12$Yp3dYVMHZm/EyVywJniYKeaAr36OzckAYwNilPHVMJDdPpffJnopK",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:50.361Z"
+      },
+      "id": "usr-1792856450361-2iy55",
+      "createdAt": "2026-10-24T15:40:50.361Z",
+      "updatedAt": "2026-10-24T15:40:51.553Z",
+      "failedLoginAttempts": 5,
+      "lockUntil": "2026-10-24T15:55:51.553Z"
+    },
+    {
+      "fullName": "Patient Alpha",
+      "email": "patient.alpha.1792856451566@example.com",
+      "phoneNumber": "+91 91111 22222",
+      "passwordHash": "$2b$12$nvqYINqQnSo8E/9rDQpVyepAi22Ny9hFNDNLFubRPlLTmqvKt96CS",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:51.800Z"
+      },
+      "id": "usr-1792856451800-tgozi",
+      "createdAt": "2026-10-24T15:40:51.800Z",
+      "updatedAt": "2026-10-24T15:40:52.277Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:40:52.277Z"
+    },
+    {
+      "fullName": "Patient Beta",
+      "email": "patient.beta.1792856451566@example.com",
+      "phoneNumber": "+91 93333 44444",
+      "passwordHash": "$2b$12$2Y7rDvu.vOl/5SA.O.YSb.vX0BodiNvXtMXFsjJWWo5N9ZxVy1Xp.",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:52.040Z"
+      },
+      "id": "usr-1792856452040-mtrn8",
+      "createdAt": "2026-10-24T15:40:52.040Z",
+      "updatedAt": "2026-10-24T15:40:52.514Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:40:52.514Z"
+    },
+    {
+      "fullName": "Hacker User",
+      "email": "hacker.1792856452525@example.com",
+      "phoneNumber": "+91 99999 00000",
+      "passwordHash": "$2b$12$cS6Ulm8QTUduhZBrPS8WBuXQjRbkxmr2TWfoCFMNtL/7MdYhEl6Au",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:40:52.759Z"
+      },
+      "id": "usr-1792856452759-mmzno",
+      "createdAt": "2026-10-24T15:40:52.759Z",
+      "updatedAt": "2026-10-24T15:40:52.759Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Priya Sharma",
+      "email": "priya.sharma.1792856469580@example.com",
+      "phoneNumber": "+91 98765 43210",
+      "dateOfBirth": "1992-06-15",
+      "passwordHash": "$2b$12$p9D2mG6ph0wqCMtfYB3/TOWzNGKVIurDAgVVikjKPmN4/QhrT1S8G",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:41:09.902Z"
+      },
+      "id": "usr-1792856469902-nfpos",
+      "createdAt": "2026-10-24T15:41:09.902Z",
+      "updatedAt": "2026-10-24T15:41:09.902Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Duplicate Tester",
+      "email": "duplicate.1792856469931@example.com",
+      "phoneNumber": "+91 91234 56789",
+      "passwordHash": "$2b$12$U47.azQKllDgMfCJSpuNne5WKryIdeWts1Anvsx9Y5fKc4QfK1nW2",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:41:10.177Z"
+      },
+      "id": "usr-1792856470177-jw0ve",
+      "createdAt": "2026-10-24T15:41:10.177Z",
+      "updatedAt": "2026-10-24T15:41:10.177Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Verify Tester",
+      "email": "verify.test.1792856470203@example.com",
+      "phoneNumber": "+91 98765 11111",
+      "passwordHash": "$2b$12$qZGrh9XRDA7xnjgWUXF.kO572Tovepno8lf6cLBvyJz2h9mFnwP/.",
+      "role": "patient",
+      "isEmailVerified": true,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:41:10.517Z"
+      },
+      "id": "usr-1792856470517-ogh2z",
+      "createdAt": "2026-10-24T15:41:10.517Z",
+      "updatedAt": "2026-10-24T15:41:10.538Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Unverified User",
+      "email": "unverified.1792856471048@example.com",
+      "phoneNumber": "+91 98765 22222",
+      "passwordHash": "$2b$12$82feUvmEsBZNpM4cVB6jBek25c1vYmz032CmfKl/XlwVa8IeVEQDK",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:41:11.288Z"
+      },
+      "id": "usr-1792856471288-y25hx",
+      "createdAt": "2026-10-24T15:41:11.288Z",
+      "updatedAt": "2026-10-24T15:41:11.288Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    },
+    {
+      "fullName": "Reset Tester",
+      "email": "reset.tester.1792856471533@example.com",
+      "phoneNumber": "+91 98765 33333",
+      "passwordHash": "$2b$12$xJuX.JP3yTLdRKtr6onlo.opvtSVmjXbNKVNY4htLWbWI8OdE0r3i",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:41:11.795Z"
+      },
+      "id": "usr-1792856471795-9e92d",
+      "createdAt": "2026-10-24T15:41:11.795Z",
+      "updatedAt": "2026-10-24T15:41:12.582Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:41:12.582Z"
+    },
+    {
+      "fullName": "Brute Target",
+      "email": "brute.target.1792856473586@example.com",
+      "phoneNumber": "+91 99999 88888",
+      "passwordHash": "$2b$12$bwnGdusuLvN0XBxPsOHd9eoc9ECgr2py48dtifktY8LTkRW8zoUGG",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:41:13.825Z"
+      },
+      "id": "usr-1792856473825-b2x0v",
+      "createdAt": "2026-10-24T15:41:13.825Z",
+      "updatedAt": "2026-10-24T15:41:15.037Z",
+      "failedLoginAttempts": 5,
+      "lockUntil": "2026-10-24T15:56:15.037Z"
+    },
+    {
+      "fullName": "Patient Alpha",
+      "email": "patient.alpha.1792856475049@example.com",
+      "phoneNumber": "+91 91111 22222",
+      "passwordHash": "$2b$12$WcXH4SHDo.fUTR2FyPe.BueI2fa58FvtARRcF8rmhkMmshhn8L1.S",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:41:15.284Z"
+      },
+      "id": "usr-1792856475284-cvj4c",
+      "createdAt": "2026-10-24T15:41:15.284Z",
+      "updatedAt": "2026-10-24T15:41:15.768Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:41:15.768Z"
+    },
+    {
+      "fullName": "Patient Beta",
+      "email": "patient.beta.1792856475049@example.com",
+      "phoneNumber": "+91 93333 44444",
+      "passwordHash": "$2b$12$KDv6S8oiv/oOo40adLPZXO70gjfM.c11yZeA4S//eQaeF0aAhtpO.",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:41:15.527Z"
+      },
+      "id": "usr-1792856475527-2ljup",
+      "createdAt": "2026-10-24T15:41:15.527Z",
+      "updatedAt": "2026-10-24T15:41:16.010Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null,
+      "lastLoginAt": "2026-10-24T15:41:16.010Z"
+    },
+    {
+      "fullName": "Hacker User",
+      "email": "hacker.1792856476022@example.com",
+      "phoneNumber": "+91 99999 00000",
+      "passwordHash": "$2b$12$oBqcdklc8t3YsteSvomorOBuVm7I1tUbcR/Ki.Al9aob3DzQM7qA.",
+      "role": "patient",
+      "isEmailVerified": false,
+      "isPhoneVerified": false,
+      "consents": {
+        "terms": false,
+        "privacyPolicy": false,
+        "aiHealthProcessing": true,
+        "timestamp": "2026-10-24T15:41:16.257Z"
+      },
+      "id": "usr-1792856476257-2rec6",
+      "createdAt": "2026-10-24T15:41:16.257Z",
+      "updatedAt": "2026-10-24T15:41:16.257Z",
+      "failedLoginAttempts": 0,
+      "lockUntil": null
+    }
+  ],
+  "verificationTokens": [
+    {
+      "userId": "usr-1792856141030-t13g6",
+      "tokenHash": "e4a43450ad1671ca27b5ff579cc1a794e0f1f37668e6834c67720c054d1ea19b",
+      "otpCode": "572310",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:35:41.032Z",
+      "usedAt": null,
+      "id": "tok-1792856141032-bc5lk",
+      "createdAt": "2026-10-24T15:35:41.032Z"
+    },
+    {
+      "userId": "usr-1792856141030-t13g6",
+      "tokenHash": "d573e016f1f56d2c104bf2ab0fa604aed771884a3195ea0b63adead94d224737",
+      "otpCode": "616556",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:45:41.033Z",
+      "usedAt": null,
+      "id": "tok-1792856141033-ulnn6",
+      "createdAt": "2026-10-24T15:35:41.033Z"
+    },
+    {
+      "userId": "usr-1792856141366-lgcmi",
+      "tokenHash": "bf827cf681f77cdad28d598d7d34a5ded2a586036fcaad1e7a5ee89c85661c0a",
+      "otpCode": "891852",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:35:41.367Z",
+      "usedAt": null,
+      "id": "tok-1792856141367-n1p2f",
+      "createdAt": "2026-10-24T15:35:41.367Z"
+    },
+    {
+      "userId": "usr-1792856141366-lgcmi",
+      "tokenHash": "fe792d4531b155c4f8f35898217e3a66d375bfdc2226417cf4e5c47697337398",
+      "otpCode": "355266",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:45:41.367Z",
+      "usedAt": null,
+      "id": "tok-1792856141367-nje16",
+      "createdAt": "2026-10-24T15:35:41.368Z"
+    },
+    {
+      "userId": "usr-1792856141851-br1f0",
+      "tokenHash": "ad7358f65d117bef82b180cdc5d470d52448253e476634c734c37096a7956808",
+      "otpCode": "583165",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:35:41.852Z",
+      "usedAt": "2026-10-24T15:35:41.862Z",
+      "id": "tok-1792856141852-e565l",
+      "createdAt": "2026-10-24T15:35:41.852Z"
+    },
+    {
+      "userId": "usr-1792856141851-br1f0",
+      "tokenHash": "ae5cd9d9a563da0ebdece0ea645961df96d744e6964374ff7d5f8a8eaeb7475c",
+      "otpCode": "351361",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:45:41.852Z",
+      "usedAt": null,
+      "id": "tok-1792856141852-e5flp",
+      "createdAt": "2026-10-24T15:35:41.852Z"
+    },
+    {
+      "userId": "usr-1792856142472-7rzt1",
+      "tokenHash": "08c799bdfacc814e7635032a6e3045ffe77e99de1142815d67016c159c374343",
+      "otpCode": "500192",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:35:42.473Z",
+      "usedAt": null,
+      "id": "tok-1792856142473-qp3np",
+      "createdAt": "2026-10-24T15:35:42.473Z"
+    },
+    {
+      "userId": "usr-1792856142472-7rzt1",
+      "tokenHash": "d6af1682844365c03976833d95c00b55353c90553d25de69cca3879b2568f85a",
+      "otpCode": "459624",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:45:42.473Z",
+      "usedAt": null,
+      "id": "tok-1792856142473-p9i7h",
+      "createdAt": "2026-10-24T15:35:42.473Z"
+    },
+    {
+      "userId": "usr-1792856143021-a65wc",
+      "tokenHash": "d568663a32fb2a8b90fda1d31c61869792a18fce12d9be2d0dc1720d208f93be",
+      "otpCode": "573381",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:35:43.022Z",
+      "usedAt": null,
+      "id": "tok-1792856143022-048y3",
+      "createdAt": "2026-10-24T15:35:43.022Z"
+    },
+    {
+      "userId": "usr-1792856143021-a65wc",
+      "tokenHash": "7145804b9ad822d19cdfcd45de16798d7e90b70ce40c279375926ffb9f169a67",
+      "otpCode": "810023",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:45:43.023Z",
+      "usedAt": null,
+      "id": "tok-1792856143023-dw1qk",
+      "createdAt": "2026-10-24T15:35:43.023Z"
+    },
+    {
+      "userId": "usr-1792856143021-a65wc",
+      "tokenHash": "8e474ad62da9900e38cf777213bd197a422b22e205920aaa4316f8db7d08fd80",
+      "otpCode": "866184",
+      "type": "password_reset",
+      "expiresAt": "2026-10-24T16:35:43.030Z",
+      "usedAt": "2026-10-24T15:35:43.342Z",
+      "id": "tok-1792856143030-ij1p2",
+      "createdAt": "2026-10-24T15:35:43.030Z"
+    },
+    {
+      "userId": "usr-1792856145502-bujwl",
+      "tokenHash": "fbeb4b22fed7bb9d12573216cd096ff88b743668b51180aa5010ac8f4971691a",
+      "otpCode": "303087",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:35:45.503Z",
+      "usedAt": null,
+      "id": "tok-1792856145503-aan7i",
+      "createdAt": "2026-10-24T15:35:45.503Z"
+    },
+    {
+      "userId": "usr-1792856145502-bujwl",
+      "tokenHash": "5a4204092af80f6eddfc1de37b40f8616d558b5c925c055cebd6e61b310c0f6d",
+      "otpCode": "579639",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:45:45.504Z",
+      "usedAt": null,
+      "id": "tok-1792856145504-ar3iw",
+      "createdAt": "2026-10-24T15:35:45.504Z"
+    },
+    {
+      "userId": "usr-1792856147310-2x8yn",
+      "tokenHash": "a30d9e5765127b0e7b2f07d2f1617595983aba5884574d31810a1ec338196201",
+      "otpCode": "873122",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:35:47.311Z",
+      "usedAt": null,
+      "id": "tok-1792856147311-qze0g",
+      "createdAt": "2026-10-24T15:35:47.311Z"
+    },
+    {
+      "userId": "usr-1792856147310-2x8yn",
+      "tokenHash": "fb51bb38f5a1dd7bb00cd1e5f6d02d8ca3f1c1c880efe23ffd36910472a20bda",
+      "otpCode": "480065",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:45:47.312Z",
+      "usedAt": null,
+      "id": "tok-1792856147312-djegl",
+      "createdAt": "2026-10-24T15:35:47.312Z"
+    },
+    {
+      "userId": "usr-1792856147618-x52kr",
+      "tokenHash": "d589a50c7f747c1b70fac4572dad9e69fe14b9930b820570b9a80ce66e2c3f66",
+      "otpCode": "884195",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:35:47.619Z",
+      "usedAt": null,
+      "id": "tok-1792856147619-pxj15",
+      "createdAt": "2026-10-24T15:35:47.619Z"
+    },
+    {
+      "userId": "usr-1792856147618-x52kr",
+      "tokenHash": "e1a53b13b096352432edd1ec482f69e47aa2d5c4b911c23ec9fea0d71e221706",
+      "otpCode": "888718",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:45:47.620Z",
+      "usedAt": null,
+      "id": "tok-1792856147620-0sfff",
+      "createdAt": "2026-10-24T15:35:47.620Z"
+    },
+    {
+      "userId": "usr-1792856148476-ukwh9",
+      "tokenHash": "84ce25052006ab1501f50f0396c736dacc589819674fb67fd937ba04e648f5d5",
+      "otpCode": "127748",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:35:48.477Z",
+      "usedAt": null,
+      "id": "tok-1792856148477-vvlnu",
+      "createdAt": "2026-10-24T15:35:48.477Z"
+    },
+    {
+      "userId": "usr-1792856148476-ukwh9",
+      "tokenHash": "347996c0b6ced5ff2491c5c94cc677cc2bf93edcfd617c6ba3167ed7865c2239",
+      "otpCode": "664556",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:45:48.478Z",
+      "usedAt": null,
+      "id": "tok-1792856148478-ubpiy",
+      "createdAt": "2026-10-24T15:35:48.478Z"
+    },
+    {
+      "userId": "usr-1792856331273-bs5jt",
+      "tokenHash": "768d36b78087d45b14e4839624ef29f5cc02dc5853445ee37ee6200f4c692303",
+      "otpCode": "788123",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:38:51.274Z",
+      "usedAt": null,
+      "id": "tok-1792856331274-0d3xq",
+      "createdAt": "2026-10-24T15:38:51.274Z"
+    },
+    {
+      "userId": "usr-1792856331273-bs5jt",
+      "tokenHash": "c2a9c42334fabf695de71c3a9f5da28d47b48c2aa2d7aa72b24471f79904feae",
+      "otpCode": "300556",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:48:51.275Z",
+      "usedAt": null,
+      "id": "tok-1792856331275-k14a1",
+      "createdAt": "2026-10-24T15:38:51.275Z"
+    },
+    {
+      "userId": "usr-1792856331588-xycay",
+      "tokenHash": "b52bb4839ecb6234779d95f9a5cee7f8eb7ec8554c20f05ab3928299fbd58b87",
+      "otpCode": "817309",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:38:51.589Z",
+      "usedAt": null,
+      "id": "tok-1792856331589-1d4nk",
+      "createdAt": "2026-10-24T15:38:51.589Z"
+    },
+    {
+      "userId": "usr-1792856331588-xycay",
+      "tokenHash": "55a85fb8559856eeb978bde9becef26a00e7c7cc43b0dc6079cf2da2ea1c764e",
+      "otpCode": "563556",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:48:51.589Z",
+      "usedAt": null,
+      "id": "tok-1792856331589-gdqrr",
+      "createdAt": "2026-10-24T15:38:51.589Z"
+    },
+    {
+      "userId": "usr-1792856331977-u97c4",
+      "tokenHash": "57b302c3cc04558de9dae3d86cbd9bf22e3aa3dddeb196b969624c3832ec5d4a",
+      "otpCode": "491154",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:38:51.978Z",
+      "usedAt": "2026-10-24T15:38:51.996Z",
+      "id": "tok-1792856331978-h69r0",
+      "createdAt": "2026-10-24T15:38:51.978Z"
+    },
+    {
+      "userId": "usr-1792856331977-u97c4",
+      "tokenHash": "989aee3a8019242c98940c66cb924517b36750b04105b46a33dc240b0f739b4f",
+      "otpCode": "349667",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:48:51.979Z",
+      "usedAt": null,
+      "id": "tok-1792856331979-025sh",
+      "createdAt": "2026-10-24T15:38:51.979Z"
+    },
+    {
+      "userId": "usr-1792856332906-25jme",
+      "tokenHash": "f3d3c7b7fdab425b165d9377840140272add3fdaa5c460ccc2cdad22fa56ebf8",
+      "otpCode": "149838",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:38:52.907Z",
+      "usedAt": null,
+      "id": "tok-1792856332907-il8ma",
+      "createdAt": "2026-10-24T15:38:52.907Z"
+    },
+    {
+      "userId": "usr-1792856332906-25jme",
+      "tokenHash": "25f4d48797811dc3ec6c31dd2d0033332310c9a1dd9ee511019d3c0859922451",
+      "otpCode": "650799",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:48:52.908Z",
+      "usedAt": null,
+      "id": "tok-1792856332908-hyizm",
+      "createdAt": "2026-10-24T15:38:52.908Z"
+    },
+    {
+      "userId": "usr-1792856333492-y6eql",
+      "tokenHash": "4520378b3c0d5b173c9569265b7bab7590d730f9d520f51e872f3b2ebd759b81",
+      "otpCode": "424314",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:38:53.493Z",
+      "usedAt": null,
+      "id": "tok-1792856333493-hzja2",
+      "createdAt": "2026-10-24T15:38:53.493Z"
+    },
+    {
+      "userId": "usr-1792856333492-y6eql",
+      "tokenHash": "8750403e59f62f613f1471b99f178ed6f936d0eb360c38a9eb9262d0a51eead2",
+      "otpCode": "812839",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:48:53.494Z",
+      "usedAt": null,
+      "id": "tok-1792856333494-6vzdf",
+      "createdAt": "2026-10-24T15:38:53.494Z"
+    },
+    {
+      "userId": "usr-1792856333492-y6eql",
+      "tokenHash": "b12097fa53195fb17873289fabc8a5c5c43267c3e85b3c49a8795af09db32c41",
+      "otpCode": "218722",
+      "type": "password_reset",
+      "expiresAt": "2026-10-24T16:38:53.503Z",
+      "usedAt": "2026-10-24T15:38:53.785Z",
+      "id": "tok-1792856333503-jh5m2",
+      "createdAt": "2026-10-24T15:38:53.503Z"
+    },
+    {
+      "userId": "usr-1792856335710-frpyg",
+      "tokenHash": "8ba05f2318c730e696890ceceee98d26d6aef7e02b768488fcafce150f886ed4",
+      "otpCode": "891404",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:38:55.712Z",
+      "usedAt": null,
+      "id": "tok-1792856335712-xnow1",
+      "createdAt": "2026-10-24T15:38:55.712Z"
+    },
+    {
+      "userId": "usr-1792856335710-frpyg",
+      "tokenHash": "142192196f26723fd270858ec065f540e63ce4c7f37d9cf5622cabe361d24470",
+      "otpCode": "774455",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:48:55.712Z",
+      "usedAt": null,
+      "id": "tok-1792856335712-wmiqb",
+      "createdAt": "2026-10-24T15:38:55.712Z"
+    },
+    {
+      "userId": "usr-1792856337385-eoncj",
+      "tokenHash": "1d0f8f85f7a6803701778fa4a35601275b4f535491f1398f4bc1ec32cf28de86",
+      "otpCode": "995482",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:38:57.386Z",
+      "usedAt": null,
+      "id": "tok-1792856337386-aqmdb",
+      "createdAt": "2026-10-24T15:38:57.386Z"
+    },
+    {
+      "userId": "usr-1792856337385-eoncj",
+      "tokenHash": "ae7796af896aaf9bddf09b55d6ddffbdf62739249ea366d9e99d29263eda9b19",
+      "otpCode": "804914",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:48:57.387Z",
+      "usedAt": null,
+      "id": "tok-1792856337387-eaicx",
+      "createdAt": "2026-10-24T15:38:57.387Z"
+    },
+    {
+      "userId": "usr-1792856337663-q44rt",
+      "tokenHash": "eaa2c2c574ad08cdbffb1be1af26972837428f6372a41f104c1e7a26d12efe5f",
+      "otpCode": "436184",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:38:57.664Z",
+      "usedAt": null,
+      "id": "tok-1792856337664-vmsb2",
+      "createdAt": "2026-10-24T15:38:57.664Z"
+    },
+    {
+      "userId": "usr-1792856337663-q44rt",
+      "tokenHash": "9592d1eb4ca12448a2ba669cfbdcbb2c966c9a6801a01641d7d200c4b99721dd",
+      "otpCode": "919938",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:48:57.665Z",
+      "usedAt": null,
+      "id": "tok-1792856337665-n0t9w",
+      "createdAt": "2026-10-24T15:38:57.665Z"
+    },
+    {
+      "userId": "usr-1792856338495-22eda",
+      "tokenHash": "c263bac531682b2d11785a4afc7085392838b157ebe9ee7561d3f107eef61646",
+      "otpCode": "916730",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:38:58.497Z",
+      "usedAt": null,
+      "id": "tok-1792856338497-jn30h",
+      "createdAt": "2026-10-24T15:38:58.497Z"
+    },
+    {
+      "userId": "usr-1792856338495-22eda",
+      "tokenHash": "f395f2746cc5bccbfbbbddd71e8bd745c342bc6419eccf60194dbf49c8e453fa",
+      "otpCode": "370727",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:48:58.497Z",
+      "usedAt": null,
+      "id": "tok-1792856338497-gtq37",
+      "createdAt": "2026-10-24T15:38:58.497Z"
+    },
+    {
+      "userId": "usr-1792856422234-hj893",
+      "tokenHash": "3df588b055e9d8fb34c549139bbc11160751d4e2843025bf79a5a6615917f73e",
+      "otpCode": "295318",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:22.236Z",
+      "usedAt": null,
+      "id": "tok-1792856422236-qlvo3",
+      "createdAt": "2026-10-24T15:40:22.236Z"
+    },
+    {
+      "userId": "usr-1792856422234-hj893",
+      "tokenHash": "1ede28de5fe2e2df160b098d31ad5711b598737fb0b86bf2363cc2e8c207ec92",
+      "otpCode": "371820",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:22.237Z",
+      "usedAt": null,
+      "id": "tok-1792856422237-rowp7",
+      "createdAt": "2026-10-24T15:40:22.237Z"
+    },
+    {
+      "userId": "usr-1792856422531-jqofx",
+      "tokenHash": "e9f35a87c479cb7e6c1be25b408c0ce1f4f64d202761b8c22e509bc4a276fa05",
+      "otpCode": "978028",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:22.532Z",
+      "usedAt": null,
+      "id": "tok-1792856422532-goib0",
+      "createdAt": "2026-10-24T15:40:22.532Z"
+    },
+    {
+      "userId": "usr-1792856422531-jqofx",
+      "tokenHash": "119725d47280c734a5fddf48f09be469bc0389eade3e99042bf5509f70cc092e",
+      "otpCode": "893959",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:22.533Z",
+      "usedAt": null,
+      "id": "tok-1792856422533-f78l8",
+      "createdAt": "2026-10-24T15:40:22.533Z"
+    },
+    {
+      "userId": "usr-1792856422889-tn4l6",
+      "tokenHash": "6dbfcb54e49150f3a0be41e2e244902f9a25412b7da601125d9122a45f3f804b",
+      "otpCode": "212525",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:22.890Z",
+      "usedAt": "2026-10-24T15:40:22.908Z",
+      "id": "tok-1792856422890-x0l78",
+      "createdAt": "2026-10-24T15:40:22.890Z"
+    },
+    {
+      "userId": "usr-1792856422889-tn4l6",
+      "tokenHash": "6de6590b51195e6d66309d8ef5751aecbcec47446293ea6441d7d209fafe42f8",
+      "otpCode": "591156",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:22.891Z",
+      "usedAt": null,
+      "id": "tok-1792856422891-kmt3p",
+      "createdAt": "2026-10-24T15:40:22.891Z"
+    },
+    {
+      "userId": "usr-1792856423644-i4nb2",
+      "tokenHash": "13a55e92abb6d6f6335fc41f4fec7ac31508322648b033d0c1d10a559a6cb9d7",
+      "otpCode": "854932",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:23.645Z",
+      "usedAt": null,
+      "id": "tok-1792856423645-q9p7k",
+      "createdAt": "2026-10-24T15:40:23.645Z"
+    },
+    {
+      "userId": "usr-1792856423644-i4nb2",
+      "tokenHash": "b17fefb3f908e5bc82d8b5d7d2861037f295774ed02485c4c506553c3cd54f11",
+      "otpCode": "932374",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:23.646Z",
+      "usedAt": null,
+      "id": "tok-1792856423646-8g5me",
+      "createdAt": "2026-10-24T15:40:23.646Z"
+    },
+    {
+      "userId": "usr-1792856424128-pt2lz",
+      "tokenHash": "25ad3be9364d1e393792bcdd632ed1bc80a9a1768d2cdc5d6896ffb41480ec91",
+      "otpCode": "340600",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:24.129Z",
+      "usedAt": null,
+      "id": "tok-1792856424129-0w3hy",
+      "createdAt": "2026-10-24T15:40:24.129Z"
+    },
+    {
+      "userId": "usr-1792856424128-pt2lz",
+      "tokenHash": "970d639ef41027a7e12eaf4e4fdb35555afa96f604c32693370b235bc4720be9",
+      "otpCode": "752995",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:24.130Z",
+      "usedAt": null,
+      "id": "tok-1792856424130-kl6zn",
+      "createdAt": "2026-10-24T15:40:24.130Z"
+    },
+    {
+      "userId": "usr-1792856424128-pt2lz",
+      "tokenHash": "b2b98f5c160ab185bc177af7b84bffef444b7bb9023fae927d8531eb9daf5b7f",
+      "otpCode": "145235",
+      "type": "password_reset",
+      "expiresAt": "2026-10-24T16:40:24.140Z",
+      "usedAt": "2026-10-24T15:40:24.383Z",
+      "id": "tok-1792856424140-csup6",
+      "createdAt": "2026-10-24T15:40:24.140Z"
+    },
+    {
+      "userId": "usr-1792856426052-e8dmz",
+      "tokenHash": "7733ea89786d0342d211260d1bf89359ba7f0658f285a792b3fb59df9a05a758",
+      "otpCode": "873479",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:26.053Z",
+      "usedAt": null,
+      "id": "tok-1792856426053-12u0l",
+      "createdAt": "2026-10-24T15:40:26.053Z"
+    },
+    {
+      "userId": "usr-1792856426052-e8dmz",
+      "tokenHash": "759de6c0e7a46763b3ebdcfddefd04919bf0fb3ce40a097cda008a23f3ac42a9",
+      "otpCode": "518746",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:26.054Z",
+      "usedAt": null,
+      "id": "tok-1792856426054-9y18r",
+      "createdAt": "2026-10-24T15:40:26.054Z"
+    },
+    {
+      "userId": "usr-1792856427512-k2fn6",
+      "tokenHash": "281f601a1a3cd92af223fd41e7b9b581be52c717b807f215d45b3b92be32567f",
+      "otpCode": "154599",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:27.513Z",
+      "usedAt": null,
+      "id": "tok-1792856427513-ggl5t",
+      "createdAt": "2026-10-24T15:40:27.513Z"
+    },
+    {
+      "userId": "usr-1792856427512-k2fn6",
+      "tokenHash": "0e9bc2e661f22fd618e60a32f614e50c95d2b6f430182b2181bffd85c33dfcd4",
+      "otpCode": "933988",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:27.513Z",
+      "usedAt": null,
+      "id": "tok-1792856427513-6abz0",
+      "createdAt": "2026-10-24T15:40:27.513Z"
+    },
+    {
+      "userId": "usr-1792856427752-r35q4",
+      "tokenHash": "3441d4183778ab7144afd0d58317555bf5773c8ffc7627166641cf506f2e1327",
+      "otpCode": "239705",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:27.753Z",
+      "usedAt": null,
+      "id": "tok-1792856427753-7zfq1",
+      "createdAt": "2026-10-24T15:40:27.753Z"
+    },
+    {
+      "userId": "usr-1792856427752-r35q4",
+      "tokenHash": "5e6c0b6c430a23f5169396495a0de6dd42034f5c2c4b97dba67f9c8311aa0952",
+      "otpCode": "655211",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:27.754Z",
+      "usedAt": null,
+      "id": "tok-1792856427754-hnm3e",
+      "createdAt": "2026-10-24T15:40:27.754Z"
+    },
+    {
+      "userId": "usr-1792856428474-o5vot",
+      "tokenHash": "616f5f63e754fc18edcab84e58ca56320229292bdedd81733f19909095aeb7f3",
+      "otpCode": "382379",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:28.475Z",
+      "usedAt": null,
+      "id": "tok-1792856428475-ptcxl",
+      "createdAt": "2026-10-24T15:40:28.475Z"
+    },
+    {
+      "userId": "usr-1792856428474-o5vot",
+      "tokenHash": "c942ec49a8c53507d9287416b0de0161e782ead7574d5cac0d7896b423313b33",
+      "otpCode": "246894",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:28.476Z",
+      "usedAt": null,
+      "id": "tok-1792856428476-e2yl4",
+      "createdAt": "2026-10-24T15:40:28.476Z"
+    },
+    {
+      "userId": "usr-1792856446569-vyvbe",
+      "tokenHash": "b6fb71608c3d728c8938a4a724ed169441863f85e827cca61885081bec1d3048",
+      "otpCode": "665989",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:46.571Z",
+      "usedAt": null,
+      "id": "tok-1792856446571-9kjjf",
+      "createdAt": "2026-10-24T15:40:46.571Z"
+    },
+    {
+      "userId": "usr-1792856446569-vyvbe",
+      "tokenHash": "af713a498fe86ae1a2079f6b87997162777547975a1466509c8c009485ac5667",
+      "otpCode": "484709",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:46.572Z",
+      "usedAt": null,
+      "id": "tok-1792856446572-56waa",
+      "createdAt": "2026-10-24T15:40:46.572Z"
+    },
+    {
+      "userId": "usr-1792856446850-m8hdk",
+      "tokenHash": "146d48b890e01049d2984208c2f6436a0d388b4a2d6a06f0f1bb04f268abe666",
+      "otpCode": "477525",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:46.851Z",
+      "usedAt": null,
+      "id": "tok-1792856446851-xh1xc",
+      "createdAt": "2026-10-24T15:40:46.851Z"
+    },
+    {
+      "userId": "usr-1792856446850-m8hdk",
+      "tokenHash": "86ee2b059a796b31d2ca696c62f1855fc862c7af1736dd4b7197a41a00b1a477",
+      "otpCode": "145425",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:46.852Z",
+      "usedAt": null,
+      "id": "tok-1792856446852-6c6w8",
+      "createdAt": "2026-10-24T15:40:46.852Z"
+    },
+    {
+      "userId": "usr-1792856447193-smz6u",
+      "tokenHash": "c501b06b546fa8b3e7d22deb7741d9a8741995c2ffef57285f1b3b0b67cc07e5",
+      "otpCode": "219674",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:47.194Z",
+      "usedAt": "2026-10-24T15:40:47.210Z",
+      "id": "tok-1792856447194-zs6bt",
+      "createdAt": "2026-10-24T15:40:47.194Z"
+    },
+    {
+      "userId": "usr-1792856447193-smz6u",
+      "tokenHash": "5a50e317655aa0a8e43a91ccff140f2d741d21ecffae1a2aebd5e8c5d2f888f6",
+      "otpCode": "955998",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:47.194Z",
+      "usedAt": null,
+      "id": "tok-1792856447194-olp1y",
+      "createdAt": "2026-10-24T15:40:47.194Z"
+    },
+    {
+      "userId": "usr-1792856447949-8gj4v",
+      "tokenHash": "7f97537af835dcf7931e3a34eff2e252d08622069cab2b1c03bfdbd9d02f18f3",
+      "otpCode": "637463",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:47.950Z",
+      "usedAt": null,
+      "id": "tok-1792856447950-luc4z",
+      "createdAt": "2026-10-24T15:40:47.950Z"
+    },
+    {
+      "userId": "usr-1792856447949-8gj4v",
+      "tokenHash": "fab3a0cb298653ab165a2a5691a0a36db20f953de2be5d1001f3c95e3dcd28ec",
+      "otpCode": "328275",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:47.951Z",
+      "usedAt": null,
+      "id": "tok-1792856447951-f8782",
+      "createdAt": "2026-10-24T15:40:47.951Z"
+    },
+    {
+      "userId": "usr-1792856448430-faxim",
+      "tokenHash": "effb8654816a188b37eeb9eb640786c9a7a0d9a5b2daf7e56d3ca3b163e3c397",
+      "otpCode": "411187",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:48.431Z",
+      "usedAt": null,
+      "id": "tok-1792856448431-g782q",
+      "createdAt": "2026-10-24T15:40:48.431Z"
+    },
+    {
+      "userId": "usr-1792856448430-faxim",
+      "tokenHash": "f229286545ee5ae075c081a2f3774a9d16b1394403ef20fbb76197c987175123",
+      "otpCode": "252742",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:48.432Z",
+      "usedAt": null,
+      "id": "tok-1792856448432-ktgd7",
+      "createdAt": "2026-10-24T15:40:48.432Z"
+    },
+    {
+      "userId": "usr-1792856448430-faxim",
+      "tokenHash": "8c4a6e3b9d3b7f67e21413adc2ae85fcb6073e2b299677a6329c4144fd53d430",
+      "otpCode": "268568",
+      "type": "password_reset",
+      "expiresAt": "2026-10-24T16:40:48.447Z",
+      "usedAt": "2026-10-24T15:40:48.693Z",
+      "id": "tok-1792856448447-6ed1t",
+      "createdAt": "2026-10-24T15:40:48.447Z"
+    },
+    {
+      "userId": "usr-1792856450361-2iy55",
+      "tokenHash": "d68c970d6243017d176723449a744ba4b30ca0e3ca36b5bd1f1ce2af9b829604",
+      "otpCode": "265926",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:50.362Z",
+      "usedAt": null,
+      "id": "tok-1792856450362-yaz4d",
+      "createdAt": "2026-10-24T15:40:50.362Z"
+    },
+    {
+      "userId": "usr-1792856450361-2iy55",
+      "tokenHash": "4f0fce45b67889221aa3e6e801034c6ad12b563cb4a0e31472e818c2d48ed0b8",
+      "otpCode": "804515",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:50.363Z",
+      "usedAt": null,
+      "id": "tok-1792856450363-ma8td",
+      "createdAt": "2026-10-24T15:40:50.363Z"
+    },
+    {
+      "userId": "usr-1792856451800-tgozi",
+      "tokenHash": "7416ecc76ed231d3f276f41b336b39e85c442b08a19e66c1bad79121d3049c0f",
+      "otpCode": "566334",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:51.801Z",
+      "usedAt": null,
+      "id": "tok-1792856451801-vypcp",
+      "createdAt": "2026-10-24T15:40:51.801Z"
+    },
+    {
+      "userId": "usr-1792856451800-tgozi",
+      "tokenHash": "df0f03dde40667db4f9d9ee59941622dd76e30f92b1f57b6dd7085358579ce17",
+      "otpCode": "640282",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:51.802Z",
+      "usedAt": null,
+      "id": "tok-1792856451802-htasg",
+      "createdAt": "2026-10-24T15:40:51.802Z"
+    },
+    {
+      "userId": "usr-1792856452040-mtrn8",
+      "tokenHash": "2debc638d4ce3b09fd977bcb8455b1e2aaf4c7f898c18f1e8d3afcffc87fc980",
+      "otpCode": "405268",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:52.041Z",
+      "usedAt": null,
+      "id": "tok-1792856452041-499ot",
+      "createdAt": "2026-10-24T15:40:52.041Z"
+    },
+    {
+      "userId": "usr-1792856452040-mtrn8",
+      "tokenHash": "5883119041755fb2ed41ddba83a04314a4dd3796a653492beee2893cdd13e88f",
+      "otpCode": "421996",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:52.042Z",
+      "usedAt": null,
+      "id": "tok-1792856452042-4hdf0",
+      "createdAt": "2026-10-24T15:40:52.042Z"
+    },
+    {
+      "userId": "usr-1792856452759-mmzno",
+      "tokenHash": "822fd0e93ab7874447c48d6b28d8ea5fd4fb997ecc53c01f618c94b5f762bacc",
+      "otpCode": "556151",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:40:52.760Z",
+      "usedAt": null,
+      "id": "tok-1792856452760-h3hwh",
+      "createdAt": "2026-10-24T15:40:52.760Z"
+    },
+    {
+      "userId": "usr-1792856452759-mmzno",
+      "tokenHash": "e3434b01cbfd3e4ea2684519b64e2fb490687bb0ce2faa86e1baa455e81bb03c",
+      "otpCode": "363792",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:50:52.760Z",
+      "usedAt": null,
+      "id": "tok-1792856452760-s5kbd",
+      "createdAt": "2026-10-24T15:40:52.760Z"
+    },
+    {
+      "userId": "usr-1792856469902-nfpos",
+      "tokenHash": "4aef3aed40660840941d4b116edc87caf48afd830be71c3bef2533da9d0f450d",
+      "otpCode": "839476",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:41:09.904Z",
+      "usedAt": null,
+      "id": "tok-1792856469904-7wspi",
+      "createdAt": "2026-10-24T15:41:09.904Z"
+    },
+    {
+      "userId": "usr-1792856469902-nfpos",
+      "tokenHash": "11fc56c67a36aa898a482339496ac1ef6b0b2d2c31eb7fd2c0eeb191df6f7f11",
+      "otpCode": "418240",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:51:09.905Z",
+      "usedAt": null,
+      "id": "tok-1792856469905-t3q3j",
+      "createdAt": "2026-10-24T15:41:09.905Z"
+    },
+    {
+      "userId": "usr-1792856470177-jw0ve",
+      "tokenHash": "179bc7092f7f1c3f12cc9edb8189ff5ef7ef5897fe764f61238f642b4b68d3dd",
+      "otpCode": "277588",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:41:10.178Z",
+      "usedAt": null,
+      "id": "tok-1792856470178-9reg7",
+      "createdAt": "2026-10-24T15:41:10.178Z"
+    },
+    {
+      "userId": "usr-1792856470177-jw0ve",
+      "tokenHash": "a1f94720ec5961162b8ab54cf9aadda64fd55ef588af3303a6cc90cc3531ed14",
+      "otpCode": "945009",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:51:10.179Z",
+      "usedAt": null,
+      "id": "tok-1792856470179-w03oh",
+      "createdAt": "2026-10-24T15:41:10.179Z"
+    },
+    {
+      "userId": "usr-1792856470517-ogh2z",
+      "tokenHash": "417916b5d712491d024afa3e554618729b5c6fa5a924ee83dc8730c6c4521773",
+      "otpCode": "230579",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:41:10.518Z",
+      "usedAt": "2026-10-24T15:41:10.537Z",
+      "id": "tok-1792856470518-7c50p",
+      "createdAt": "2026-10-24T15:41:10.518Z"
+    },
+    {
+      "userId": "usr-1792856470517-ogh2z",
+      "tokenHash": "79c0144f2e0c5733b805201d909b3a50035c8064216a1cff32b07156277020f2",
+      "otpCode": "530619",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:51:10.519Z",
+      "usedAt": null,
+      "id": "tok-1792856470519-xr97n",
+      "createdAt": "2026-10-24T15:41:10.519Z"
+    },
+    {
+      "userId": "usr-1792856471288-y25hx",
+      "tokenHash": "54da42481a6e3d7b1c78b7f0c8e7da02c855eaead4ab6bac70bcc3fb72ebff72",
+      "otpCode": "885916",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:41:11.289Z",
+      "usedAt": null,
+      "id": "tok-1792856471289-3s6h3",
+      "createdAt": "2026-10-24T15:41:11.289Z"
+    },
+    {
+      "userId": "usr-1792856471288-y25hx",
+      "tokenHash": "ee2a62da74432f3e316d7755d6c5a4fec3884a43d3254e739741864899885792",
+      "otpCode": "330431",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:51:11.290Z",
+      "usedAt": null,
+      "id": "tok-1792856471290-xl172",
+      "createdAt": "2026-10-24T15:41:11.290Z"
+    },
+    {
+      "userId": "usr-1792856471795-9e92d",
+      "tokenHash": "e0369446c4650752eef9078c198344554baef209871fb115db9d34cc20b3fd71",
+      "otpCode": "927042",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:41:11.796Z",
+      "usedAt": null,
+      "id": "tok-1792856471796-r3z1t",
+      "createdAt": "2026-10-24T15:41:11.796Z"
+    },
+    {
+      "userId": "usr-1792856471795-9e92d",
+      "tokenHash": "e7e2ccc37b8ac65e1cfb9d277df25dcd9df67c22f8c6090c6a20a35b744651c4",
+      "otpCode": "992226",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:51:11.797Z",
+      "usedAt": null,
+      "id": "tok-1792856471797-5phgw",
+      "createdAt": "2026-10-24T15:41:11.797Z"
+    },
+    {
+      "userId": "usr-1792856471795-9e92d",
+      "tokenHash": "1863bb7e37cc031c30daf314c2f7ad0e287d01b10fcb23b1c753270213cc6d46",
+      "otpCode": "686486",
+      "type": "password_reset",
+      "expiresAt": "2026-10-24T16:41:11.820Z",
+      "usedAt": "2026-10-24T15:41:12.082Z",
+      "id": "tok-1792856471820-gb2a8",
+      "createdAt": "2026-10-24T15:41:11.820Z"
+    },
+    {
+      "userId": "usr-1792856473825-b2x0v",
+      "tokenHash": "05afa4fb8b9741da8e02e5fa3376ffc701f291b83645b338d9287d7b6b73a9f1",
+      "otpCode": "652831",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:41:13.826Z",
+      "usedAt": null,
+      "id": "tok-1792856473826-ej4zh",
+      "createdAt": "2026-10-24T15:41:13.826Z"
+    },
+    {
+      "userId": "usr-1792856473825-b2x0v",
+      "tokenHash": "423e333535a0bfa63def1bb2854f1f752a49fded5e4281516556a2fd3b102ead",
+      "otpCode": "889895",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:51:13.827Z",
+      "usedAt": null,
+      "id": "tok-1792856473827-cep5n",
+      "createdAt": "2026-10-24T15:41:13.827Z"
+    },
+    {
+      "userId": "usr-1792856475284-cvj4c",
+      "tokenHash": "637aa5886885eb88bd92971d3324ed49302370581ce51260cd1d7b681b8f593d",
+      "otpCode": "146578",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:41:15.286Z",
+      "usedAt": null,
+      "id": "tok-1792856475286-1ihf7",
+      "createdAt": "2026-10-24T15:41:15.286Z"
+    },
+    {
+      "userId": "usr-1792856475284-cvj4c",
+      "tokenHash": "35c39edd1a28a8df6429a6eede783cf8070932933bc5af414ee52a78b9e051a6",
+      "otpCode": "400366",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:51:15.287Z",
+      "usedAt": null,
+      "id": "tok-1792856475287-5wz8t",
+      "createdAt": "2026-10-24T15:41:15.287Z"
+    },
+    {
+      "userId": "usr-1792856475527-2ljup",
+      "tokenHash": "630845eae3494d3ab61314017672f42bae6a2cb3a702f70756769b9da62f18fa",
+      "otpCode": "378600",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:41:15.528Z",
+      "usedAt": null,
+      "id": "tok-1792856475528-vb7s5",
+      "createdAt": "2026-10-24T15:41:15.528Z"
+    },
+    {
+      "userId": "usr-1792856475527-2ljup",
+      "tokenHash": "8a47dfe93a698039924805000576cae01ca274667f712006ec5df4f8e4082688",
+      "otpCode": "847087",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:51:15.529Z",
+      "usedAt": null,
+      "id": "tok-1792856475529-conrf",
+      "createdAt": "2026-10-24T15:41:15.529Z"
+    },
+    {
+      "userId": "usr-1792856476257-2rec6",
+      "tokenHash": "f0ccfda8e855ed4638fca620b5aa7469ad381489b4b7b6a5ab54feeb9573b4f9",
+      "otpCode": "314396",
+      "type": "email_verify",
+      "expiresAt": "2026-10-25T15:41:16.258Z",
+      "usedAt": null,
+      "id": "tok-1792856476258-cvt2m",
+      "createdAt": "2026-10-24T15:41:16.258Z"
+    },
+    {
+      "userId": "usr-1792856476257-2rec6",
+      "tokenHash": "e67e474f83de2096e8a39eeba9edd230eb57211f712f5ef05e7e8bbd842e46e3",
+      "otpCode": "645974",
+      "type": "phone_verify",
+      "expiresAt": "2026-10-24T15:51:16.260Z",
+      "usedAt": null,
+      "id": "tok-1792856476260-fqzlt",
+      "createdAt": "2026-10-24T15:41:16.260Z"
+    }
+  ],
+  "sessions": [
+    {
+      "userId": "usr-1792856143021-a65wc",
+      "tokenHash": "6d4d2c7f10092c9150be2b9f633d4c3571e241935ab82ae4fe6b05fe0e8aeb01",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:35:43.940Z",
+      "rememberMe": false,
+      "id": "sess-1792856143940-zkcdvj",
+      "createdAt": "2026-10-24T15:35:43.940Z",
+      "lastActiveAt": "2026-10-24T15:35:43.940Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "be85da6d0750c9d5ba653059acdd90ffbceb0b2c558324da2969ee7146e5d25c",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:35:45.167Z",
+      "rememberMe": false,
+      "id": "sess-1792856145168-lvsmgf",
+      "createdAt": "2026-10-24T15:35:45.168Z",
+      "lastActiveAt": "2026-10-24T15:35:45.168Z"
+    },
+    {
+      "userId": "usr-1792856147310-2x8yn",
+      "tokenHash": "bb6c73e3b4b21f07a688eb7c449c123c175a33ac2bc7b7a915cec395c0d37dd2",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:35:47.919Z",
+      "rememberMe": false,
+      "id": "sess-1792856147919-71qjdc",
+      "createdAt": "2026-10-24T15:35:47.919Z",
+      "lastActiveAt": "2026-10-24T15:35:47.919Z"
+    },
+    {
+      "userId": "usr-1792856147618-x52kr",
+      "tokenHash": "82ca3836f7412427d9724fe9835e6e4d54476566a38bd9588b8d2c49a042986b",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:35:48.194Z",
+      "rememberMe": false,
+      "id": "sess-1792856148194-hksi4i",
+      "createdAt": "2026-10-24T15:35:48.194Z",
+      "lastActiveAt": "2026-10-24T15:35:48.194Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "f75cd1983796d3e7a214f4d81ddb938d16109ab6c1417fd4eadf009f05692f8d",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:38:52.581Z",
+      "rememberMe": false,
+      "id": "sess-1792856332581-zu7ilt",
+      "createdAt": "2026-10-24T15:38:52.581Z",
+      "lastActiveAt": "2026-10-24T15:38:52.581Z"
+    },
+    {
+      "userId": "usr-1792856333492-y6eql",
+      "tokenHash": "a4090de63007702ff25f0c958b6047b9c3317fb1bc886d4150e630aedc4c1711",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:38:54.351Z",
+      "rememberMe": false,
+      "id": "sess-1792856334351-crc457",
+      "createdAt": "2026-10-24T15:38:54.351Z",
+      "lastActiveAt": "2026-10-24T15:38:54.351Z"
+    },
+    {
+      "userId": "usr-1792856337385-eoncj",
+      "tokenHash": "d8b451f3ec8187ec4c6a0757b6330860ac46f2998fc575e00f130bc303e8be16",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:38:57.943Z",
+      "rememberMe": false,
+      "id": "sess-1792856337943-y934x3",
+      "createdAt": "2026-10-24T15:38:57.943Z",
+      "lastActiveAt": "2026-10-24T15:38:57.943Z"
+    },
+    {
+      "userId": "usr-1792856337663-q44rt",
+      "tokenHash": "6ba883daba04282546a9629fcb26711aaf4d1a626ceda8407cf852b3679ddbbe",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:38:58.222Z",
+      "rememberMe": false,
+      "id": "sess-1792856338222-ugfepx",
+      "createdAt": "2026-10-24T15:38:58.222Z",
+      "lastActiveAt": "2026-10-24T15:38:58.222Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "eec2140d50a8a1f046c09ee9ca7e5866044d7243473a69281d0e33906883cfa2",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:38:58.790Z",
+      "rememberMe": false,
+      "id": "sess-1792856338790-1fht3v",
+      "createdAt": "2026-10-24T15:38:58.790Z",
+      "lastActiveAt": "2026-10-24T15:38:58.796Z"
+    },
+    {
+      "userId": "usr-seed-admin-001",
+      "tokenHash": "3ece852f3d6f105b95ddbd2b6859033f1199345717c24854f8a1758938193412",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:38:59.070Z",
+      "rememberMe": false,
+      "id": "sess-1792856339070-cpkecx",
+      "createdAt": "2026-10-24T15:38:59.070Z",
+      "lastActiveAt": "2026-10-24T15:38:59.076Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "cf9cc0a722faa93a785cfa31b10bc36412c2b22716ec67697ae4dbef1699432a",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:23.402Z",
+      "rememberMe": false,
+      "id": "sess-1792856423402-t64sc5",
+      "createdAt": "2026-10-24T15:40:23.402Z",
+      "lastActiveAt": "2026-10-24T15:40:23.402Z"
+    },
+    {
+      "userId": "usr-1792856424128-pt2lz",
+      "tokenHash": "00473590f48ccf38478c1de5247e952f86af77d9c197514824963c638021d7ce",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:24.861Z",
+      "rememberMe": false,
+      "id": "sess-1792856424861-r73rdi",
+      "createdAt": "2026-10-24T15:40:24.861Z",
+      "lastActiveAt": "2026-10-24T15:40:24.861Z"
+    },
+    {
+      "userId": "usr-1792856427512-k2fn6",
+      "tokenHash": "392474af46806f22ccf08204cb72727583b6e46874e0b73aa80b3cbb6e0d0b29",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:27.992Z",
+      "rememberMe": false,
+      "id": "sess-1792856427992-faklbs",
+      "createdAt": "2026-10-24T15:40:27.992Z",
+      "lastActiveAt": "2026-10-24T15:40:28.235Z"
+    },
+    {
+      "userId": "usr-1792856427752-r35q4",
+      "tokenHash": "1490b3e591a8baff75aa413cc708e2a92ecec4174c574386c5d8ef4c4ed8cc0e",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:28.230Z",
+      "rememberMe": false,
+      "id": "sess-1792856428230-d9sdmf",
+      "createdAt": "2026-10-24T15:40:28.230Z",
+      "lastActiveAt": "2026-10-24T15:40:28.237Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "34fc8021516df3f575bfdab82bd59b3edc07e2e38f2fb87c1b75363585f8acb4",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:28.715Z",
+      "rememberMe": false,
+      "id": "sess-1792856428715-ioa6or",
+      "createdAt": "2026-10-24T15:40:28.715Z",
+      "lastActiveAt": "2026-10-24T15:40:28.720Z"
+    },
+    {
+      "userId": "usr-seed-admin-001",
+      "tokenHash": "1fb9e6cd13835f039e0b6af4dd13706cd6ced865a2a257fe81688b9df4df1dd8",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:28.961Z",
+      "rememberMe": false,
+      "id": "sess-1792856428961-dyzy0w",
+      "createdAt": "2026-10-24T15:40:28.961Z",
+      "lastActiveAt": "2026-10-24T15:40:28.966Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "b0d93ea22101e8cd6f1396cd174c7a468ac516f5dcd3bff985bdd6b9a95201f5",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:47.709Z",
+      "rememberMe": false,
+      "id": "sess-1792856447709-v0nj48",
+      "createdAt": "2026-10-24T15:40:47.709Z",
+      "lastActiveAt": "2026-10-24T15:40:47.709Z"
+    },
+    {
+      "userId": "usr-1792856448430-faxim",
+      "tokenHash": "e7679e2daddc48ede9169ec140caeee9932937f762ae125309524c0c9899d12a",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:49.175Z",
+      "rememberMe": false,
+      "id": "sess-1792856449175-50mvq7",
+      "createdAt": "2026-10-24T15:40:49.175Z",
+      "lastActiveAt": "2026-10-24T15:40:49.175Z"
+    },
+    {
+      "userId": "usr-1792856451800-tgozi",
+      "tokenHash": "2c535771b1ff105fd35bf4c186d902e3a09ccd6859b774fe28bf9ccd862be615",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:52.278Z",
+      "rememberMe": false,
+      "id": "sess-1792856452278-wjbig7",
+      "createdAt": "2026-10-24T15:40:52.278Z",
+      "lastActiveAt": "2026-10-24T15:40:52.520Z"
+    },
+    {
+      "userId": "usr-1792856452040-mtrn8",
+      "tokenHash": "a097235d98e1b4d3d6eabe43d1f4193cd75d460edf2f6da1c7f063b0012890c6",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:52.515Z",
+      "rememberMe": false,
+      "id": "sess-1792856452515-hi0tor",
+      "createdAt": "2026-10-24T15:40:52.515Z",
+      "lastActiveAt": "2026-10-24T15:40:52.523Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "70251e1be07e12d483aba47497cc8c969603a359bf2e7b88deaf8284b9dc197e",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:53.004Z",
+      "rememberMe": false,
+      "id": "sess-1792856453004-pyd03x",
+      "createdAt": "2026-10-24T15:40:53.004Z",
+      "lastActiveAt": "2026-10-24T15:40:53.010Z"
+    },
+    {
+      "userId": "usr-seed-admin-001",
+      "tokenHash": "236c7e00ad1c353d29e4a4fe43f66d065e34ec3695297bec6b5235ccf6977487",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:40:53.245Z",
+      "rememberMe": false,
+      "id": "sess-1792856453246-x8gcx4",
+      "createdAt": "2026-10-24T15:40:53.246Z",
+      "lastActiveAt": "2026-10-24T15:40:53.250Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "22d2d2fe0a491e259dfbed0834311f0cf34f4d85f3c61d0056dc26df849c48c7",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:41:11.045Z",
+      "rememberMe": false,
+      "id": "sess-1792856471045-0vv0yj",
+      "createdAt": "2026-10-24T15:41:11.045Z",
+      "lastActiveAt": "2026-10-24T15:41:11.045Z"
+    },
+    {
+      "userId": "usr-1792856471795-9e92d",
+      "tokenHash": "0b1c1cbbfa5ba50fd181abcab11b80785d600c3483f0bc19ae0f16dab7f6a5c6",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:41:12.583Z",
+      "rememberMe": false,
+      "id": "sess-1792856472583-1ajew0",
+      "createdAt": "2026-10-24T15:41:12.583Z",
+      "lastActiveAt": "2026-10-24T15:41:12.583Z"
+    },
+    {
+      "userId": "usr-1792856475284-cvj4c",
+      "tokenHash": "460cfbec63d2619b094aec730ffc9cdc1f0962391ad702936a5375e328a083b7",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:41:15.769Z",
+      "rememberMe": false,
+      "id": "sess-1792856475770-kglfcs",
+      "createdAt": "2026-10-24T15:41:15.770Z",
+      "lastActiveAt": "2026-10-24T15:41:16.017Z"
+    },
+    {
+      "userId": "usr-1792856475527-2ljup",
+      "tokenHash": "4855336d2348fd4b53b26f5c209fd8f9eae2a0302fa63b37eb082b574bd7b7f7",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:41:16.011Z",
+      "rememberMe": false,
+      "id": "sess-1792856476011-grbb3c",
+      "createdAt": "2026-10-24T15:41:16.011Z",
+      "lastActiveAt": "2026-10-24T15:41:16.020Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "c2b39e596b67e84824df34f4c2566b7be3ad8a457b9cb0ebedb2ab5680c734cf",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:41:16.515Z",
+      "rememberMe": false,
+      "id": "sess-1792856476515-w0uqro",
+      "createdAt": "2026-10-24T15:41:16.515Z",
+      "lastActiveAt": "2026-10-24T15:41:16.521Z"
+    },
+    {
+      "userId": "usr-seed-admin-001",
+      "tokenHash": "734a4264e828efcf09cccde947234fc14f2f56fef985cb5fb8f7f94502f49c59",
+      "userAgent": "node",
+      "ipAddress": "::ffff:127.0.0.1",
+      "expiresAt": "2026-10-25T15:41:16.763Z",
+      "rememberMe": false,
+      "id": "sess-1792856476763-521ugx",
+      "createdAt": "2026-10-24T15:41:16.763Z",
+      "lastActiveAt": "2026-10-24T15:41:16.769Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "2dd76d2e2c086298677d5aeef3c0cde5e56b5c66b1760cb977a17e37f92216d9",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "ipAddress": "127.0.0.1",
+      "expiresAt": "2026-11-23T16:25:29.263Z",
+      "rememberMe": true,
+      "id": "sess-1792859129263-l8asq9",
+      "createdAt": "2026-10-24T16:25:29.263Z",
+      "lastActiveAt": "2026-10-24T16:56:34.360Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "tokenHash": "6ace6ffee1fc172000d1f9ec77b5e8de7b7c5b2f766e681ca30ff3e61f5dad89",
+      "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.9711",
+      "ipAddress": "127.0.0.1",
+      "expiresAt": "2026-10-25T16:52:10.196Z",
+      "rememberMe": false,
+      "id": "sess-1792860730196-kypsig",
+      "createdAt": "2026-10-24T16:52:10.196Z",
+      "lastActiveAt": "2026-10-24T16:52:10.196Z"
+    }
+  ],
+  "authAuditLogs": [
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.9711",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792860730196-kypsig",
+        "rememberMe": false
+      },
+      "id": "audit-1792860730198-0kfc",
+      "timestamp": "2026-10-24T16:52:10.198Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792859129263-l8asq9",
+        "rememberMe": true
+      },
+      "id": "audit-1792859129267-x4nj",
+      "timestamp": "2026-10-24T16:25:29.267Z"
+    },
+    {
+      "userId": null,
+      "email": "bhavithagattupalli@gmail.com",
+      "action": "login_failed",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "status": "failure",
+      "id": "audit-1792859077949-c8jr",
+      "timestamp": "2026-10-24T16:24:37.949Z"
+    },
+    {
+      "userId": null,
+      "email": "bhavithagattupalli@gmail.com",
+      "action": "login_failed",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "status": "failure",
+      "id": "audit-1792858997875-eind",
+      "timestamp": "2026-10-24T16:23:17.875Z"
+    },
+    {
+      "userId": "usr-seed-admin-001",
+      "email": "admin@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856476763-521ugx",
+        "rememberMe": false
+      },
+      "id": "audit-1792856476765-bo0o",
+      "timestamp": "2026-10-24T15:41:16.765Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "unauthorized_access",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "blocked",
+      "metadata": {
+        "attemptedRole": [
+          "admin"
+        ],
+        "currentRole": "patient",
+        "path": "/api/doctors/registrations/dr-123/verify"
+      },
+      "id": "audit-1792856476522-ml2d",
+      "timestamp": "2026-10-24T15:41:16.522Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856476515-w0uqro",
+        "rememberMe": false
+      },
+      "id": "audit-1792856476516-avc0",
+      "timestamp": "2026-10-24T15:41:16.516Z"
+    },
+    {
+      "userId": "usr-1792856476257-2rec6",
+      "email": "hacker.1792856476022@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856476261-mzcq",
+      "timestamp": "2026-10-24T15:41:16.261Z"
+    },
+    {
+      "userId": "usr-1792856475527-2ljup",
+      "email": "patient.beta.1792856475049@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856476011-grbb3c",
+        "rememberMe": false
+      },
+      "id": "audit-1792856476012-1ihh",
+      "timestamp": "2026-10-24T15:41:16.012Z"
+    },
+    {
+      "userId": "usr-1792856475284-cvj4c",
+      "email": "patient.alpha.1792856475049@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856475770-kglfcs",
+        "rememberMe": false
+      },
+      "id": "audit-1792856475771-wn7c",
+      "timestamp": "2026-10-24T15:41:15.771Z"
+    },
+    {
+      "userId": "usr-1792856475527-2ljup",
+      "email": "patient.beta.1792856475049@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856475530-w7r4",
+      "timestamp": "2026-10-24T15:41:15.530Z"
+    },
+    {
+      "userId": "usr-1792856475284-cvj4c",
+      "email": "patient.alpha.1792856475049@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856475288-lqph",
+      "timestamp": "2026-10-24T15:41:15.288Z"
+    },
+    {
+      "userId": null,
+      "email": "brute.target.1792856473586@example.com",
+      "action": "account_locked",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "blocked",
+      "metadata": {
+        "remainingMinutes": 15
+      },
+      "id": "audit-1792856475042-p2fx",
+      "timestamp": "2026-10-24T15:41:15.042Z"
+    },
+    {
+      "userId": "usr-1792856473825-b2x0v",
+      "email": "brute.target.1792856473586@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856475038-0ly4",
+      "timestamp": "2026-10-24T15:41:15.038Z"
+    },
+    {
+      "userId": "usr-1792856473825-b2x0v",
+      "email": "brute.target.1792856473586@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856474797-sl64",
+      "timestamp": "2026-10-24T15:41:14.797Z"
+    },
+    {
+      "userId": "usr-1792856473825-b2x0v",
+      "email": "brute.target.1792856473586@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856474554-ljlv",
+      "timestamp": "2026-10-24T15:41:14.554Z"
+    },
+    {
+      "userId": "usr-1792856473825-b2x0v",
+      "email": "brute.target.1792856473586@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856474315-xdms",
+      "timestamp": "2026-10-24T15:41:14.315Z"
+    },
+    {
+      "userId": "usr-1792856473825-b2x0v",
+      "email": "brute.target.1792856473586@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856474069-d1hf",
+      "timestamp": "2026-10-24T15:41:14.069Z"
+    },
+    {
+      "userId": "usr-1792856473825-b2x0v",
+      "email": "brute.target.1792856473586@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856473828-hbss",
+      "timestamp": "2026-10-24T15:41:13.828Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "logout",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856473580-tlea",
+      "timestamp": "2026-10-24T15:41:13.580Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856473569-314ose",
+        "rememberMe": false
+      },
+      "id": "audit-1792856473570-hxbw",
+      "timestamp": "2026-10-24T15:41:13.570Z"
+    },
+    {
+      "userId": "usr-1792856471795-9e92d",
+      "email": "reset.tester.1792856471533@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856472583-1ajew0",
+        "rememberMe": false
+      },
+      "id": "audit-1792856472584-9td9",
+      "timestamp": "2026-10-24T15:41:12.584Z"
+    },
+    {
+      "userId": "usr-1792856471795-9e92d",
+      "email": "reset.tester.1792856471533@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856472337-nqtt",
+      "timestamp": "2026-10-24T15:41:12.337Z"
+    },
+    {
+      "userId": "usr-1792856471795-9e92d",
+      "email": "reset.tester.1792856471533@example.com",
+      "action": "password_reset_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856472084-xnvf",
+      "timestamp": "2026-10-24T15:41:12.084Z"
+    },
+    {
+      "userId": "usr-1792856471795-9e92d",
+      "email": "reset.tester.1792856471533@example.com",
+      "action": "password_reset_request",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856471821-tu41",
+      "timestamp": "2026-10-24T15:41:11.821Z"
+    },
+    {
+      "userId": "usr-1792856471795-9e92d",
+      "email": "reset.tester.1792856471533@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856471798-2ez7",
+      "timestamp": "2026-10-24T15:41:11.798Z"
+    },
+    {
+      "userId": "usr-1792856471288-y25hx",
+      "email": "unverified.1792856471048@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856471291-lred",
+      "timestamp": "2026-10-24T15:41:11.291Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856471045-0vv0yj",
+        "rememberMe": false
+      },
+      "id": "audit-1792856471046-u6qs",
+      "timestamp": "2026-10-24T15:41:11.046Z"
+    },
+    {
+      "userId": null,
+      "email": "nonexistent.user.999@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856470800-beq5",
+      "timestamp": "2026-10-24T15:41:10.800Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856470792-q0ze",
+      "timestamp": "2026-10-24T15:41:10.792Z"
+    },
+    {
+      "userId": "usr-1792856470517-ogh2z",
+      "email": "verify.test.1792856470203@example.com",
+      "action": "verify_email",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856470539-vahg",
+      "timestamp": "2026-10-24T15:41:10.539Z"
+    },
+    {
+      "userId": "usr-1792856470517-ogh2z",
+      "email": "verify.test.1792856470203@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856470520-67x2",
+      "timestamp": "2026-10-24T15:41:10.520Z"
+    },
+    {
+      "userId": "usr-1792856470177-jw0ve",
+      "email": "duplicate.1792856469931@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "metadata": {
+        "reason": "duplicate_email_attempt"
+      },
+      "id": "audit-1792856470195-e218",
+      "timestamp": "2026-10-24T15:41:10.195Z"
+    },
+    {
+      "userId": "usr-1792856470177-jw0ve",
+      "email": "duplicate.1792856469931@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856470181-592j",
+      "timestamp": "2026-10-24T15:41:10.181Z"
+    },
+    {
+      "userId": "usr-1792856469902-nfpos",
+      "email": "priya.sharma.1792856469580@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856469907-9krp",
+      "timestamp": "2026-10-24T15:41:09.907Z"
+    },
+    {
+      "userId": "usr-seed-admin-001",
+      "email": "admin@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856453246-x8gcx4",
+        "rememberMe": false
+      },
+      "id": "audit-1792856453246-q3e5",
+      "timestamp": "2026-10-24T15:40:53.246Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "unauthorized_access",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "blocked",
+      "metadata": {
+        "attemptedRole": [
+          "admin"
+        ],
+        "currentRole": "patient",
+        "path": "/api/doctors/registrations/dr-123/verify"
+      },
+      "id": "audit-1792856453011-zog1",
+      "timestamp": "2026-10-24T15:40:53.011Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856453004-pyd03x",
+        "rememberMe": false
+      },
+      "id": "audit-1792856453006-7js2",
+      "timestamp": "2026-10-24T15:40:53.006Z"
+    },
+    {
+      "userId": "usr-1792856452759-mmzno",
+      "email": "hacker.1792856452525@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856452761-7l4o",
+      "timestamp": "2026-10-24T15:40:52.761Z"
+    },
+    {
+      "userId": "usr-1792856452040-mtrn8",
+      "email": "patient.beta.1792856451566@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856452515-hi0tor",
+        "rememberMe": false
+      },
+      "id": "audit-1792856452516-7uw6",
+      "timestamp": "2026-10-24T15:40:52.516Z"
+    },
+    {
+      "userId": "usr-1792856451800-tgozi",
+      "email": "patient.alpha.1792856451566@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856452278-wjbig7",
+        "rememberMe": false
+      },
+      "id": "audit-1792856452279-a7xr",
+      "timestamp": "2026-10-24T15:40:52.279Z"
+    },
+    {
+      "userId": "usr-1792856452040-mtrn8",
+      "email": "patient.beta.1792856451566@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856452043-6ybr",
+      "timestamp": "2026-10-24T15:40:52.043Z"
+    },
+    {
+      "userId": "usr-1792856451800-tgozi",
+      "email": "patient.alpha.1792856451566@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856451803-cg7u",
+      "timestamp": "2026-10-24T15:40:51.803Z"
+    },
+    {
+      "userId": null,
+      "email": "brute.target.1792856450131@example.com",
+      "action": "account_locked",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "blocked",
+      "metadata": {
+        "remainingMinutes": 15
+      },
+      "id": "audit-1792856451558-cjjj",
+      "timestamp": "2026-10-24T15:40:51.558Z"
+    },
+    {
+      "userId": "usr-1792856450361-2iy55",
+      "email": "brute.target.1792856450131@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856451554-uzz9",
+      "timestamp": "2026-10-24T15:40:51.554Z"
+    },
+    {
+      "userId": "usr-1792856450361-2iy55",
+      "email": "brute.target.1792856450131@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856451312-47pc",
+      "timestamp": "2026-10-24T15:40:51.312Z"
+    },
+    {
+      "userId": "usr-1792856450361-2iy55",
+      "email": "brute.target.1792856450131@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856451074-nwxd",
+      "timestamp": "2026-10-24T15:40:51.074Z"
+    },
+    {
+      "userId": "usr-1792856450361-2iy55",
+      "email": "brute.target.1792856450131@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856450836-dow4",
+      "timestamp": "2026-10-24T15:40:50.836Z"
+    },
+    {
+      "userId": "usr-1792856450361-2iy55",
+      "email": "brute.target.1792856450131@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856450600-kpj9",
+      "timestamp": "2026-10-24T15:40:50.600Z"
+    },
+    {
+      "userId": "usr-1792856450361-2iy55",
+      "email": "brute.target.1792856450131@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856450364-zuar",
+      "timestamp": "2026-10-24T15:40:50.364Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "logout",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856450125-183g",
+      "timestamp": "2026-10-24T15:40:50.125Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856450113-1qzgyc",
+        "rememberMe": false
+      },
+      "id": "audit-1792856450114-0gbc",
+      "timestamp": "2026-10-24T15:40:50.114Z"
+    },
+    {
+      "userId": "usr-1792856448430-faxim",
+      "email": "reset.tester.1792856448191@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856449175-50mvq7",
+        "rememberMe": false
+      },
+      "id": "audit-1792856449176-952a",
+      "timestamp": "2026-10-24T15:40:49.176Z"
+    },
+    {
+      "userId": "usr-1792856448430-faxim",
+      "email": "reset.tester.1792856448191@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856448939-hqni",
+      "timestamp": "2026-10-24T15:40:48.939Z"
+    },
+    {
+      "userId": "usr-1792856448430-faxim",
+      "email": "reset.tester.1792856448191@example.com",
+      "action": "password_reset_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856448695-6cdd",
+      "timestamp": "2026-10-24T15:40:48.695Z"
+    },
+    {
+      "userId": "usr-1792856448430-faxim",
+      "email": "reset.tester.1792856448191@example.com",
+      "action": "password_reset_request",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856448448-xz73",
+      "timestamp": "2026-10-24T15:40:48.448Z"
+    },
+    {
+      "userId": "usr-1792856448430-faxim",
+      "email": "reset.tester.1792856448191@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856448433-my8h",
+      "timestamp": "2026-10-24T15:40:48.433Z"
+    },
+    {
+      "userId": "usr-1792856447949-8gj4v",
+      "email": "unverified.1792856447712@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856447952-8kp1",
+      "timestamp": "2026-10-24T15:40:47.952Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856447709-v0nj48",
+        "rememberMe": false
+      },
+      "id": "audit-1792856447710-a000",
+      "timestamp": "2026-10-24T15:40:47.710Z"
+    },
+    {
+      "userId": null,
+      "email": "nonexistent.user.999@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856447470-by1b",
+      "timestamp": "2026-10-24T15:40:47.470Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856447456-u1oq",
+      "timestamp": "2026-10-24T15:40:47.456Z"
+    },
+    {
+      "userId": "usr-1792856447193-smz6u",
+      "email": "verify.test.1792856446875@example.com",
+      "action": "verify_email",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856447211-pa7q",
+      "timestamp": "2026-10-24T15:40:47.211Z"
+    },
+    {
+      "userId": "usr-1792856447193-smz6u",
+      "email": "verify.test.1792856446875@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856447195-eyha",
+      "timestamp": "2026-10-24T15:40:47.195Z"
+    },
+    {
+      "userId": "usr-1792856446850-m8hdk",
+      "email": "duplicate.1792856446599@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "metadata": {
+        "reason": "duplicate_email_attempt"
+      },
+      "id": "audit-1792856446867-h33y",
+      "timestamp": "2026-10-24T15:40:46.867Z"
+    },
+    {
+      "userId": "usr-1792856446850-m8hdk",
+      "email": "duplicate.1792856446599@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856446853-lpbn",
+      "timestamp": "2026-10-24T15:40:46.853Z"
+    },
+    {
+      "userId": "usr-1792856446569-vyvbe",
+      "email": "priya.sharma.1792856446241@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856446573-yeqn",
+      "timestamp": "2026-10-24T15:40:46.573Z"
+    },
+    {
+      "userId": "usr-seed-admin-001",
+      "email": "admin@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856428961-dyzy0w",
+        "rememberMe": false
+      },
+      "id": "audit-1792856428962-uqdy",
+      "timestamp": "2026-10-24T15:40:28.962Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "unauthorized_access",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "blocked",
+      "metadata": {
+        "attemptedRole": [
+          "admin"
+        ],
+        "currentRole": "patient",
+        "path": "/api/doctors/registrations/dr-123/verify"
+      },
+      "id": "audit-1792856428720-wpe5",
+      "timestamp": "2026-10-24T15:40:28.720Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856428715-ioa6or",
+        "rememberMe": false
+      },
+      "id": "audit-1792856428716-epjb",
+      "timestamp": "2026-10-24T15:40:28.716Z"
+    },
+    {
+      "userId": "usr-1792856428474-o5vot",
+      "email": "hacker.1792856428239@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856428477-4rig",
+      "timestamp": "2026-10-24T15:40:28.477Z"
+    },
+    {
+      "userId": "usr-1792856427752-r35q4",
+      "email": "patient.beta.1792856427280@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856428230-d9sdmf",
+        "rememberMe": false
+      },
+      "id": "audit-1792856428231-jo2r",
+      "timestamp": "2026-10-24T15:40:28.231Z"
+    },
+    {
+      "userId": "usr-1792856427512-k2fn6",
+      "email": "patient.alpha.1792856427280@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856427992-faklbs",
+        "rememberMe": false
+      },
+      "id": "audit-1792856427993-2qds",
+      "timestamp": "2026-10-24T15:40:27.993Z"
+    },
+    {
+      "userId": "usr-1792856427752-r35q4",
+      "email": "patient.beta.1792856427280@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856427755-oj8l",
+      "timestamp": "2026-10-24T15:40:27.755Z"
+    },
+    {
+      "userId": "usr-1792856427512-k2fn6",
+      "email": "patient.alpha.1792856427280@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856427514-mfaz",
+      "timestamp": "2026-10-24T15:40:27.514Z"
+    },
+    {
+      "userId": null,
+      "email": "brute.target.1792856425819@example.com",
+      "action": "account_locked",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "blocked",
+      "metadata": {
+        "remainingMinutes": 15
+      },
+      "id": "audit-1792856427273-uhos",
+      "timestamp": "2026-10-24T15:40:27.273Z"
+    },
+    {
+      "userId": "usr-1792856426052-e8dmz",
+      "email": "brute.target.1792856425819@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856427270-jmv3",
+      "timestamp": "2026-10-24T15:40:27.270Z"
+    },
+    {
+      "userId": "usr-1792856426052-e8dmz",
+      "email": "brute.target.1792856425819@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856427033-vdog",
+      "timestamp": "2026-10-24T15:40:27.033Z"
+    },
+    {
+      "userId": "usr-1792856426052-e8dmz",
+      "email": "brute.target.1792856425819@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856426770-jp1y",
+      "timestamp": "2026-10-24T15:40:26.770Z"
+    },
+    {
+      "userId": "usr-1792856426052-e8dmz",
+      "email": "brute.target.1792856425819@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856426534-bnr5",
+      "timestamp": "2026-10-24T15:40:26.534Z"
+    },
+    {
+      "userId": "usr-1792856426052-e8dmz",
+      "email": "brute.target.1792856425819@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856426293-bdai",
+      "timestamp": "2026-10-24T15:40:26.293Z"
+    },
+    {
+      "userId": "usr-1792856426052-e8dmz",
+      "email": "brute.target.1792856425819@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856426055-scxv",
+      "timestamp": "2026-10-24T15:40:26.055Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "logout",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856425814-a5v2",
+      "timestamp": "2026-10-24T15:40:25.814Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856425803-c8re9g",
+        "rememberMe": false
+      },
+      "id": "audit-1792856425804-8za1",
+      "timestamp": "2026-10-24T15:40:25.804Z"
+    },
+    {
+      "userId": "usr-1792856424128-pt2lz",
+      "email": "reset.tester.1792856423881@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856424861-r73rdi",
+        "rememberMe": false
+      },
+      "id": "audit-1792856424862-e812",
+      "timestamp": "2026-10-24T15:40:24.862Z"
+    },
+    {
+      "userId": "usr-1792856424128-pt2lz",
+      "email": "reset.tester.1792856423881@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856424626-1ypb",
+      "timestamp": "2026-10-24T15:40:24.626Z"
+    },
+    {
+      "userId": "usr-1792856424128-pt2lz",
+      "email": "reset.tester.1792856423881@example.com",
+      "action": "password_reset_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856424384-8v0u",
+      "timestamp": "2026-10-24T15:40:24.384Z"
+    },
+    {
+      "userId": "usr-1792856424128-pt2lz",
+      "email": "reset.tester.1792856423881@example.com",
+      "action": "password_reset_request",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856424141-szzc",
+      "timestamp": "2026-10-24T15:40:24.141Z"
+    },
+    {
+      "userId": "usr-1792856424128-pt2lz",
+      "email": "reset.tester.1792856423881@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856424132-rxgw",
+      "timestamp": "2026-10-24T15:40:24.132Z"
+    },
+    {
+      "userId": "usr-1792856423644-i4nb2",
+      "email": "unverified.1792856423405@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856423647-i6k9",
+      "timestamp": "2026-10-24T15:40:23.647Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856423402-t64sc5",
+        "rememberMe": false
+      },
+      "id": "audit-1792856423403-61wu",
+      "timestamp": "2026-10-24T15:40:23.403Z"
+    },
+    {
+      "userId": null,
+      "email": "nonexistent.user.999@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856423165-rarj",
+      "timestamp": "2026-10-24T15:40:23.165Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856423163-nsqi",
+      "timestamp": "2026-10-24T15:40:23.163Z"
+    },
+    {
+      "userId": "usr-1792856422889-tn4l6",
+      "email": "verify.test.1792856422559@example.com",
+      "action": "verify_email",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856422909-he19",
+      "timestamp": "2026-10-24T15:40:22.909Z"
+    },
+    {
+      "userId": "usr-1792856422889-tn4l6",
+      "email": "verify.test.1792856422559@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856422892-wq8d",
+      "timestamp": "2026-10-24T15:40:22.892Z"
+    },
+    {
+      "userId": "usr-1792856422531-jqofx",
+      "email": "duplicate.1792856422267@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "metadata": {
+        "reason": "duplicate_email_attempt"
+      },
+      "id": "audit-1792856422548-1pjv",
+      "timestamp": "2026-10-24T15:40:22.548Z"
+    },
+    {
+      "userId": "usr-1792856422531-jqofx",
+      "email": "duplicate.1792856422267@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856422535-hiv8",
+      "timestamp": "2026-10-24T15:40:22.535Z"
+    },
+    {
+      "userId": "usr-1792856422234-hj893",
+      "email": "priya.sharma.1792856421913@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856422238-4ihk",
+      "timestamp": "2026-10-24T15:40:22.238Z"
+    },
+    {
+      "userId": "usr-seed-admin-001",
+      "email": "admin@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856339070-cpkecx",
+        "rememberMe": false
+      },
+      "id": "audit-1792856339071-u9mj",
+      "timestamp": "2026-10-24T15:38:59.071Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "unauthorized_access",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "blocked",
+      "metadata": {
+        "attemptedRole": [
+          "admin"
+        ],
+        "currentRole": "patient",
+        "path": "/api/doctors/registrations/dr-123/verify"
+      },
+      "id": "audit-1792856338797-u3l3",
+      "timestamp": "2026-10-24T15:38:58.797Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856338790-1fht3v",
+        "rememberMe": false
+      },
+      "id": "audit-1792856338790-379u",
+      "timestamp": "2026-10-24T15:38:58.790Z"
+    },
+    {
+      "userId": "usr-1792856338495-22eda",
+      "email": "hacker.1792856338230@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856338498-7qo4",
+      "timestamp": "2026-10-24T15:38:58.498Z"
+    },
+    {
+      "userId": "usr-1792856337663-q44rt",
+      "email": "patient.beta.1792856337116@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856338222-ugfepx",
+        "rememberMe": false
+      },
+      "id": "audit-1792856338223-38ej",
+      "timestamp": "2026-10-24T15:38:58.223Z"
+    },
+    {
+      "userId": "usr-1792856337385-eoncj",
+      "email": "patient.alpha.1792856337116@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856337943-y934x3",
+        "rememberMe": false
+      },
+      "id": "audit-1792856337944-3gad",
+      "timestamp": "2026-10-24T15:38:57.944Z"
+    },
+    {
+      "userId": "usr-1792856337663-q44rt",
+      "email": "patient.beta.1792856337116@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856337666-d0jj",
+      "timestamp": "2026-10-24T15:38:57.666Z"
+    },
+    {
+      "userId": "usr-1792856337385-eoncj",
+      "email": "patient.alpha.1792856337116@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856337387-7vsh",
+      "timestamp": "2026-10-24T15:38:57.387Z"
+    },
+    {
+      "userId": null,
+      "email": "brute.target.1792856335442@example.com",
+      "action": "account_locked",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "blocked",
+      "metadata": {
+        "remainingMinutes": 15
+      },
+      "id": "audit-1792856337107-yybs",
+      "timestamp": "2026-10-24T15:38:57.107Z"
+    },
+    {
+      "userId": "usr-1792856335710-frpyg",
+      "email": "brute.target.1792856335442@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856337103-i6ty",
+      "timestamp": "2026-10-24T15:38:57.103Z"
+    },
+    {
+      "userId": "usr-1792856335710-frpyg",
+      "email": "brute.target.1792856335442@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856336824-muut",
+      "timestamp": "2026-10-24T15:38:56.824Z"
+    },
+    {
+      "userId": "usr-1792856335710-frpyg",
+      "email": "brute.target.1792856335442@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856336547-ycsg",
+      "timestamp": "2026-10-24T15:38:56.547Z"
+    },
+    {
+      "userId": "usr-1792856335710-frpyg",
+      "email": "brute.target.1792856335442@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856336266-ocso",
+      "timestamp": "2026-10-24T15:38:56.266Z"
+    },
+    {
+      "userId": "usr-1792856335710-frpyg",
+      "email": "brute.target.1792856335442@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856335990-79pi",
+      "timestamp": "2026-10-24T15:38:55.990Z"
+    },
+    {
+      "userId": "usr-1792856335710-frpyg",
+      "email": "brute.target.1792856335442@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856335713-5lol",
+      "timestamp": "2026-10-24T15:38:55.713Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "logout",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856335436-zs0s",
+      "timestamp": "2026-10-24T15:38:55.436Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856335425-hymilr",
+        "rememberMe": false
+      },
+      "id": "audit-1792856335426-lwno",
+      "timestamp": "2026-10-24T15:38:55.427Z"
+    },
+    {
+      "userId": "usr-1792856333492-y6eql",
+      "email": "reset.tester.1792856333200@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856334351-crc457",
+        "rememberMe": false
+      },
+      "id": "audit-1792856334352-7fcs",
+      "timestamp": "2026-10-24T15:38:54.352Z"
+    },
+    {
+      "userId": "usr-1792856333492-y6eql",
+      "email": "reset.tester.1792856333200@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856334070-zxwp",
+      "timestamp": "2026-10-24T15:38:54.070Z"
+    },
+    {
+      "userId": "usr-1792856333492-y6eql",
+      "email": "reset.tester.1792856333200@example.com",
+      "action": "password_reset_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856333787-8gcu",
+      "timestamp": "2026-10-24T15:38:53.787Z"
+    },
+    {
+      "userId": "usr-1792856333492-y6eql",
+      "email": "reset.tester.1792856333200@example.com",
+      "action": "password_reset_request",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856333504-rfc2",
+      "timestamp": "2026-10-24T15:38:53.504Z"
+    },
+    {
+      "userId": "usr-1792856333492-y6eql",
+      "email": "reset.tester.1792856333200@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856333495-8ymm",
+      "timestamp": "2026-10-24T15:38:53.495Z"
+    },
+    {
+      "userId": "usr-1792856332906-25jme",
+      "email": "unverified.1792856332584@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856332910-7liv",
+      "timestamp": "2026-10-24T15:38:52.910Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856332581-zu7ilt",
+        "rememberMe": false
+      },
+      "id": "audit-1792856332582-t8fx",
+      "timestamp": "2026-10-24T15:38:52.582Z"
+    },
+    {
+      "userId": null,
+      "email": "nonexistent.user.999@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856332300-eytb",
+      "timestamp": "2026-10-24T15:38:52.300Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856332286-t8ye",
+      "timestamp": "2026-10-24T15:38:52.286Z"
+    },
+    {
+      "userId": "usr-1792856331977-u97c4",
+      "email": "verify.test.1792856331610@example.com",
+      "action": "verify_email",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856331997-b20j",
+      "timestamp": "2026-10-24T15:38:51.997Z"
+    },
+    {
+      "userId": "usr-1792856331977-u97c4",
+      "email": "verify.test.1792856331610@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856331979-ycua",
+      "timestamp": "2026-10-24T15:38:51.979Z"
+    },
+    {
+      "userId": "usr-1792856331588-xycay",
+      "email": "duplicate.1792856331310@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "metadata": {
+        "reason": "duplicate_email_attempt"
+      },
+      "id": "audit-1792856331603-wbg8",
+      "timestamp": "2026-10-24T15:38:51.603Z"
+    },
+    {
+      "userId": "usr-1792856331588-xycay",
+      "email": "duplicate.1792856331310@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856331590-7y6s",
+      "timestamp": "2026-10-24T15:38:51.590Z"
+    },
+    {
+      "userId": "usr-1792856331273-bs5jt",
+      "email": "priya.sharma.1792856330926@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856331276-rcek",
+      "timestamp": "2026-10-24T15:38:51.276Z"
+    },
+    {
+      "userId": "usr-1792856148476-ukwh9",
+      "email": "hacker.1792856148203@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856148479-8kej",
+      "timestamp": "2026-10-24T15:35:48.479Z"
+    },
+    {
+      "userId": "usr-1792856147618-x52kr",
+      "email": "patient.beta.1792856147012@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856148194-hksi4i",
+        "rememberMe": false
+      },
+      "id": "audit-1792856148195-vxri",
+      "timestamp": "2026-10-24T15:35:48.195Z"
+    },
+    {
+      "userId": "usr-1792856147310-2x8yn",
+      "email": "patient.alpha.1792856147012@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856147919-71qjdc",
+        "rememberMe": false
+      },
+      "id": "audit-1792856147920-jbft",
+      "timestamp": "2026-10-24T15:35:47.920Z"
+    },
+    {
+      "userId": "usr-1792856147618-x52kr",
+      "email": "patient.beta.1792856147012@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856147620-17gw",
+      "timestamp": "2026-10-24T15:35:47.620Z"
+    },
+    {
+      "userId": "usr-1792856147310-2x8yn",
+      "email": "patient.alpha.1792856147012@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856147313-oh8q",
+      "timestamp": "2026-10-24T15:35:47.313Z"
+    },
+    {
+      "userId": null,
+      "email": "brute.target.1792856145177@example.com",
+      "action": "account_locked",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "blocked",
+      "metadata": {
+        "remainingMinutes": 15
+      },
+      "id": "audit-1792856147000-4eaa",
+      "timestamp": "2026-10-24T15:35:47.000Z"
+    },
+    {
+      "userId": "usr-1792856145502-bujwl",
+      "email": "brute.target.1792856145177@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856146994-2mfz",
+      "timestamp": "2026-10-24T15:35:46.994Z"
+    },
+    {
+      "userId": "usr-1792856145502-bujwl",
+      "email": "brute.target.1792856145177@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856146706-04fq",
+      "timestamp": "2026-10-24T15:35:46.706Z"
+    },
+    {
+      "userId": "usr-1792856145502-bujwl",
+      "email": "brute.target.1792856145177@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856146417-bmoa",
+      "timestamp": "2026-10-24T15:35:46.417Z"
+    },
+    {
+      "userId": "usr-1792856145502-bujwl",
+      "email": "brute.target.1792856145177@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856146100-qysf",
+      "timestamp": "2026-10-24T15:35:46.100Z"
+    },
+    {
+      "userId": "usr-1792856145502-bujwl",
+      "email": "brute.target.1792856145177@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856145816-j6wc",
+      "timestamp": "2026-10-24T15:35:45.816Z"
+    },
+    {
+      "userId": "usr-1792856145502-bujwl",
+      "email": "brute.target.1792856145177@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856145505-ckzs",
+      "timestamp": "2026-10-24T15:35:45.505Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856145168-lvsmgf",
+        "rememberMe": false
+      },
+      "id": "audit-1792856145168-pb7u",
+      "timestamp": "2026-10-24T15:35:45.168Z"
+    },
+    {
+      "userId": "usr-1792856143021-a65wc",
+      "email": "reset.tester.1792856142755@example.com",
+      "action": "login_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "metadata": {
+        "sessionId": "sess-1792856143940-zkcdvj",
+        "rememberMe": false
+      },
+      "id": "audit-1792856143941-259y",
+      "timestamp": "2026-10-24T15:35:43.941Z"
+    },
+    {
+      "userId": "usr-1792856143021-a65wc",
+      "email": "reset.tester.1792856142755@example.com",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856143644-v1mu",
+      "timestamp": "2026-10-24T15:35:43.644Z"
+    },
+    {
+      "userId": "usr-1792856143021-a65wc",
+      "email": "reset.tester.1792856142755@example.com",
+      "action": "password_reset_success",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856143343-ximv",
+      "timestamp": "2026-10-24T15:35:43.343Z"
+    },
+    {
+      "userId": "usr-1792856143021-a65wc",
+      "email": "reset.tester.1792856142755@example.com",
+      "action": "password_reset_request",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856143032-hyhr",
+      "timestamp": "2026-10-24T15:35:43.032Z"
+    },
+    {
+      "userId": "usr-1792856143021-a65wc",
+      "email": "reset.tester.1792856142755@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856143023-1uf7",
+      "timestamp": "2026-10-24T15:35:43.023Z"
+    },
+    {
+      "userId": "usr-1792856142472-7rzt1",
+      "email": "unverified.1792856142176@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856142474-5a13",
+      "timestamp": "2026-10-24T15:35:42.474Z"
+    },
+    {
+      "userId": null,
+      "email": "nonexistent.user.999@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856142173-p688",
+      "timestamp": "2026-10-24T15:35:42.173Z"
+    },
+    {
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "login_failed",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "id": "audit-1792856142155-cscf",
+      "timestamp": "2026-10-24T15:35:42.155Z"
+    },
+    {
+      "userId": "usr-1792856141851-br1f0",
+      "email": "verify.test.1792856141388@example.com",
+      "action": "verify_email",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856141864-t0ii",
+      "timestamp": "2026-10-24T15:35:41.864Z"
+    },
+    {
+      "userId": "usr-1792856141851-br1f0",
+      "email": "verify.test.1792856141388@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856141853-qgrh",
+      "timestamp": "2026-10-24T15:35:41.853Z"
+    },
+    {
+      "userId": "usr-1792856141366-lgcmi",
+      "email": "duplicate.1792856141065@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "failure",
+      "metadata": {
+        "reason": "duplicate_email_attempt"
+      },
+      "id": "audit-1792856141380-o4oy",
+      "timestamp": "2026-10-24T15:35:41.380Z"
+    },
+    {
+      "userId": "usr-1792856141366-lgcmi",
+      "email": "duplicate.1792856141065@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856141368-spek",
+      "timestamp": "2026-10-24T15:35:41.368Z"
+    },
+    {
+      "userId": "usr-1792856141030-t13g6",
+      "email": "priya.sharma.1792856140680@example.com",
+      "action": "register",
+      "ipAddress": "::ffff:127.0.0.1",
+      "userAgent": "node",
+      "status": "success",
+      "id": "audit-1792856141034-4p43",
+      "timestamp": "2026-10-24T15:35:41.034Z"
+    },
+    {
+      "id": "log-seed-1",
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "register",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "MediMate Web Client",
+      "timestamp": "2026-10-14T15:35:40.660Z",
+      "status": "success"
+    },
+    {
+      "id": "log-seed-2",
+      "userId": "usr-seed-patient-001",
+      "email": "patient@medimate.ai",
+      "action": "verify_email",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "MediMate Web Client",
+      "timestamp": "2026-10-14T16:35:40.660Z",
+      "status": "success"
+    }
+  ],
+  "userProfile": {
+    "name": "K. S. Sharma",
+    "age": 48,
+    "gender": "Male",
+    "bloodGroup": "B+",
+    "phone": "+91 98480 12345",
+    "emergencyContactName": "Lakshmi Sharma (Spouse)",
+    "emergencyContactPhone": "+91 98480 67890",
+    "languagePreference": "en",
+    "consentAiAnalysis": true,
+    "consentVoiceStorage": true,
+    "consentAbhaSharing": true,
+    "consentNotifications": true
+  },
+  "conversations": [
+    {
+      "id": "conv-init-1",
+      "title": "Mild fever & throat discomfort triage",
+      "createdAt": "2026-10-23T15:35:40.660Z",
+      "updatedAt": "2026-10-23T17:35:40.660Z",
+      "messageCount": 4,
+      "lastMessagePreview": "Hydrate well with warm fluids and monitor temperature if it exceeds 101°F.",
+      "language": "en",
+      "hasVoice": true,
+      "triageUrgency": "routine",
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "conv-init-2",
+      "title": "రక్తపోటు మరియు అలసటపై సలహా (BP & Fatigue Advice)",
+      "createdAt": "2026-10-21T15:35:40.660Z",
+      "updatedAt": "2026-10-21T17:35:40.660Z",
+      "messageCount": 3,
+      "lastMessagePreview": "జనరల్ ఫిజీషియన్ ని సంప్రదించి బీపీని క్రమం తప్పకుండా నమోదు చేయండి.",
+      "language": "te",
+      "hasVoice": false,
+      "triageUrgency": "routine",
+      "userId": "usr-seed-patient-001"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "conversationId": "conv-init-1",
+      "role": "user",
+      "content": "I have had a scratchy throat and low fever (99.8°F) since yesterday morning.",
+      "timestamp": "2026-10-23T15:35:40.660Z",
+      "isVoice": true
+    },
+    {
+      "id": "msg-2",
+      "conversationId": "conv-init-1",
+      "role": "assistant",
+      "content": "Thank you for sharing your symptoms. Based on your description of a scratchy throat and low fever (99.8°F), this presents typical viral upper respiratory signs. A General Physician can examine your pharynx and verify whether symptom relief measures are sufficient.",
+      "timestamp": "2026-10-23T15:35:42.660Z",
+      "triage": {
+        "summary": "Reported onset of scratchy throat and mild fever (99.8°F) for ~24 hours.",
+        "urgency": "routine",
+        "suggested_specialty": "General Physician",
+        "reasons_for_specialty": "A General Physician can safely differentiate between common viral pharyngitis and bacterial strep throat, recommending appropriate gargles or antipyretics.",
+        "explanation": "Most low-grade fevers with throat discomfort are self-limiting viral episodes, but require clinical evaluation if temperature spikes or breathing is affected.",
+        "next_steps": [
+          "Warm saline gargles 3-4 times a day",
+          "Adequate hydration (2.5 - 3 liters warm water)",
+          "Monitor body temperature using an oral digital thermometer twice daily"
+        ],
+        "warning_signs": [
+          "Difficulty swallowing saliva or opening mouth (trismus)",
+          "Stridor or difficulty breathing",
+          "Persistent high fever above 102°F exceeding 3 days"
+        ],
+        "show_nearby_care": true,
+        "suggested_facility_type": "clinic",
+        "disclaimer": "MediMate AI provides triage guidance and health education. It does not replace clinical diagnosis. In emergencies, call 112."
+      }
+    }
+  ],
+  "voiceRecords": [
+    {
+      "id": "voice-rec-1",
+      "conversationId": "conv-init-1",
+      "transcript": "I have had a scratchy throat and low fever since yesterday morning.",
+      "timestamp": "2026-10-23T15:35:40.660Z",
+      "durationSeconds": 6,
+      "language": "en",
+      "hasAudioStorage": true,
+      "status": "processed"
+    }
+  ],
+  "wellnessRecommendations": [
+    {
+      "id": "rec-1",
+      "category": "hydration",
+      "title": "Maintain 2.8 Liters Daily Hydration",
+      "description": "Drink a glass of water every 90 minutes to maintain optimal cellular hydration and renal function.",
+      "rationale": "Active metabolic processes and climate conditions require steady fluid intake to prevent fatigue.",
+      "status": "active",
+      "priority": "high",
+      "frequency": "daily",
+      "targetValue": "2800 ml",
+      "currentValue": "1800 ml",
+      "createdAt": "2026-10-24T15:35:40.660Z",
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "rec-2",
+      "category": "activity",
+      "title": "30-Minute Brisk Evening Walk",
+      "description": "Moderate cardiovascular exercise improves insulin sensitivity and cardiovascular endurance.",
+      "rationale": "Supports glycemic control and reduces arterial stiffness.",
+      "status": "active",
+      "priority": "medium",
+      "frequency": "daily",
+      "targetValue": "6,000 steps",
+      "currentValue": "4,200 steps",
+      "createdAt": "2026-10-24T15:35:40.660Z",
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "rec-3",
+      "category": "sleep",
+      "title": "Sleep Hygiene: Consistent 10:30 PM Wind-down",
+      "description": "Limit blue light exposure 45 minutes before bed and target 7-8 hours of uninterrupted restorative sleep.",
+      "rationale": "Deep slow-wave sleep regulates cortisol and circadian hormone rhythms.",
+      "status": "saved",
+      "priority": "medium",
+      "frequency": "daily",
+      "targetValue": "7.5 hrs",
+      "currentValue": "6.5 hrs",
+      "createdAt": "2026-10-24T15:35:40.660Z",
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "rec-4",
+      "category": "preventive",
+      "title": "Quarterly Fasting Blood Glucose & HbA1c Check",
+      "description": "Schedule routine preventive metabolic blood panel to track long-term glycemic trends.",
+      "rationale": "Recommended every 3-6 months for adults over 45 with family history of metabolic risk.",
+      "status": "active",
+      "priority": "high",
+      "frequency": "custom",
+      "targetValue": "HbA1c < 6.5%",
+      "createdAt": "2026-10-24T15:35:40.660Z",
+      "userId": "usr-seed-patient-001"
+    }
+  ],
+  "wellnessPreferences": {
+    "hydrationGoalMl": 2800,
+    "sleepGoalHours": 7.5,
+    "dailyStepsGoal": 6000,
+    "focusAreas": [
+      "Cardiovascular Health",
+      "Blood Sugar Balance",
+      "Stress Resilience"
+    ],
+    "reminderFrequency": "twice_daily"
+  },
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "Hydration Target Reminder",
+      "message": "You have logged 1,800 ml so far. Have a glass of water to reach your 2,800 ml daily goal.",
+      "category": "wellness",
+      "severity": "info",
+      "timestamp": "2026-10-24T15:00:40.660Z",
+      "read": false,
+      "actionTab": "wellness",
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "notif-2",
+      "title": "Upcoming Clinical Appointment",
+      "message": "Dr. Rajeshwar Rao (General Physician) tomorrow at 10:30 AM at Care Community Clinic.",
+      "category": "reminder",
+      "severity": "warning",
+      "timestamp": "2026-10-24T13:35:40.660Z",
+      "read": false,
+      "actionTab": "appointments",
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "notif-3",
+      "title": "ABDM Synthetic Sandbox Connected",
+      "message": "Demonstration ABHA ID 91-4458-2910-3819 linked in Mock Mode with consent artifact #ABDM-MOCK-982.",
+      "category": "system",
+      "severity": "info",
+      "timestamp": "2026-10-24T09:35:40.660Z",
+      "read": true,
+      "actionTab": "abha",
+      "userId": "usr-seed-patient-001"
+    }
+  ],
+  "riskFlags": [
+    {
+      "id": "rf-1",
+      "title": "Elevated Systolic Blood Pressure Trend",
+      "severity": "moderate",
+      "category": "vital",
+      "description": "Recent logs indicate resting systolic blood pressure between 138-142 mmHg over two consecutive checks.",
+      "ruleTriggered": "Systolic BP >= 135 mmHg on repeated measurements (Stage 1 Hypertension Range)",
+      "evidenceText": "Patient noted readings of 138/88 mmHg and 142/90 mmHg during evening routine checks.",
+      "status": "under_review",
+      "createdAt": "2026-10-22T15:35:40.660Z",
+      "updatedAt": "2026-10-24T03:35:40.660Z",
+      "notes": [
+        {
+          "timestamp": "2026-10-22T23:35:40.661Z",
+          "note": "Flagged for follow-up during next clinical visit with Dr. Rajeshwar Rao.",
+          "author": "System Safety Monitor"
+        }
+      ],
+      "actionRequired": "Record morning and evening readings for 5 days in a log to present to your physician.",
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "rf-2",
+      "title": "Borderline Fasting Blood Glucose (112 mg/dL)",
+      "severity": "low",
+      "category": "lab_report",
+      "description": "Analyzed lab report indicates impaired fasting glucose above normative threshold of 99 mg/dL.",
+      "ruleTriggered": "Fasting Blood Glucose 100-125 mg/dL (Impaired Fasting Glucose / Pre-diabetes range)",
+      "evidenceText": "Extracted from Lab Panel dated Oct 2026: Glucose Fasting = 112 mg/dL (Reference: 70-99 mg/dL).",
+      "status": "acknowledged",
+      "createdAt": "2026-10-21T15:35:40.661Z",
+      "updatedAt": "2026-10-23T15:35:40.661Z",
+      "notes": [
+        {
+          "timestamp": "2026-10-23T15:35:40.661Z",
+          "note": "Dietary modifications planned: reduced refined carbohydrates and consistent evening walk.",
+          "author": "User Sharma"
+        }
+      ],
+      "actionRequired": "Repeat HbA1c test in 90 days and consult an Endocrinologist or Diabetologist.",
+      "userId": "usr-seed-patient-001"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem-1",
+      "title": "Morning Blood Pressure Check",
+      "type": "vitals",
+      "time": "08:00 AM",
+      "daysOfWeek": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "dosageOrDetail": "Rest seated for 5 minutes prior to cuff inflation",
+      "active": true,
+      "completedToday": true,
+      "lastCompletedDate": "2026-10-24",
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "rem-2",
+      "title": "Metformin Hydrochloride (500mg)",
+      "type": "medication",
+      "time": "08:30 AM",
+      "daysOfWeek": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "dosageOrDetail": "1 tablet post-breakfast with water",
+      "active": true,
+      "completedToday": true,
+      "lastCompletedDate": "2026-10-24",
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "rem-3",
+      "title": "Afternoon Hydration Boost (500ml)",
+      "type": "hydration",
+      "time": "02:30 PM",
+      "daysOfWeek": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "dosageOrDetail": "Room temperature water with lemon slice",
+      "active": true,
+      "completedToday": false,
+      "userId": "usr-seed-patient-001"
+    },
+    {
+      "id": "rem-4",
+      "title": "Evening Brisk Walk (30 mins)",
+      "type": "activity",
+      "time": "06:30 PM",
+      "daysOfWeek": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "dosageOrDetail": "Maintain steady pace at community park",
+      "active": true,
+      "completedToday": false,
+      "userId": "usr-seed-patient-001"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-demo-1",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Rajeshwar Rao, MD",
+      "specialty": "General Physician",
+      "patientName": "K. S. Sharma",
+      "patientPhone": "+91 98480 12345",
+      "date": "2026-10-25",
+      "timeSlot": "10:30 AM",
+      "type": "in-clinic",
+      "reason": "Routine quarterly glycemic check & blood pressure review",
+      "status": "confirmed",
+      "createdAt": "2026-10-24T15:35:40.661Z",
+      "userId": "usr-seed-patient-001"
+    }
+  ],
+  "abhaProfile": {
+    "isLinked": true,
+    "mode": "mock_sandbox",
+    "abhaNumber": "91-4458-2910-3819",
+    "abhaAddress": "kssharma@abdm",
+    "name": "K. S. Sharma",
+    "gender": "Male",
+    "dob": "1978-06-14",
+    "mobile": "+91 98480 12345",
+    "linkedFacility": "Care Community Hospital (HIP/HIU #HIP-TEL-0042)",
+    "linkedDate": "2026-10-19T15:35:40.661Z",
+    "activeConsentArtifacts": 2
+  },
+  "abhaAuditLogs": [
+    {
+      "id": "log-1",
+      "action": "MOCK_ABHA_LINKED",
+      "details": "Simulated OTP verification completed via ABDM Sandbox Gateway emulator.",
+      "timestamp": "2026-10-19T15:35:40.661Z",
+      "status": "MOCK_VERIFIED"
+    },
+    {
+      "id": "log-2",
+      "action": "CONSENT_ARTIFACT_GRANTED",
+      "details": "Purpose: Care Context Linking for OPD Consultation (#HIP-TEL-0042). HiTypes: DiagnosticReport, Prescription.",
+      "timestamp": "2026-10-20T15:35:40.661Z",
+      "status": "SUCCESS"
+    }
+  ],
+  "doctorRegistrations": [
+    {
+      "id": "doc-reg-1",
+      "fullName": "Dr. Ramesh Gupta, MD, DM",
+      "email": "dr.ramesh.gupta@carehospital.in",
+      "phone": "+91 98490 23456",
+      "medicalCouncilNumber": "TS-MC-2004-4821",
+      "stateMedicalCouncil": "Telangana State Medical Council",
+      "registrationYear": 2004,
+      "qualifications": "MBBS, MD (General Medicine), DM (Cardiology)",
+      "primarySpecialty": "Cardiology",
+      "subSpecialties": [
+        "Preventive Cardiology",
+        "Heart Failure Management"
+      ],
+      "experienceYears": 20,
+      "currentHospitalOrClinic": "Apollo Health City, Jubilee Hills, Hyderabad",
+      "consultationFee": 500,
+      "isRetired": false,
+      "teleconsultationAdvisoryOnly": false,
+      "verificationStatus": "verified",
+      "nmcVerificationVerified": true,
+      "documentName": "medical_license_tsmc_2004.pdf",
+      "submittedAt": "2026-10-04T15:35:40.661Z",
+      "verifiedAt": "2026-10-07T23:35:40.661Z",
+      "auditNotes": [
+        "Registration submitted with TSMC certificate copy.",
+        "NMC National Medical Register API verified successfully. Practitioner in good standing.",
+        "Credential audit passed by Chief Medical Registrar."
+      ]
+    },
+    {
+      "id": "doc-reg-2",
+      "fullName": "Dr. Meenakshi Sundaram, MD, FRCP",
+      "email": "dr.meenakshi.sundaram@retiree-telecare.org",
+      "phone": "+91 98480 34567",
+      "medicalCouncilNumber": "TN-MC-1988-1209",
+      "stateMedicalCouncil": "Tamil Nadu Medical Council",
+      "registrationYear": 1988,
+      "qualifications": "MBBS, MD (Internal Medicine), FRCP (London)",
+      "primarySpecialty": "Internal Medicine",
+      "subSpecialties": [
+        "Geriatric Medicine",
+        "Chronic Disease Optimization"
+      ],
+      "experienceYears": 36,
+      "currentHospitalOrClinic": "Former Professor & Head of Medicine, MMC (Retired Practice)",
+      "consultationFee": 400,
+      "isRetired": true,
+      "teleconsultationAdvisoryOnly": true,
+      "verificationStatus": "verified",
+      "nmcVerificationVerified": true,
+      "documentName": "superannuation_and_nmc_license.pdf",
+      "submittedAt": "2026-10-14T15:35:40.661Z",
+      "verifiedAt": "2026-10-16T07:35:40.661Z",
+      "auditNotes": [
+        "Retired Senior Clinician registered for Secondary Review & Teleconsultation Advisory.",
+        "NMC Medical Register lifetime status verified active with Emeritus standing.",
+        "Teleconsultation advisory credentials authenticated."
+      ]
+    },
+    {
+      "id": "doc-reg-3",
+      "fullName": "Dr. Priya Varma, MS",
+      "email": "priya.varma@entclinic.in",
+      "phone": "+91 98480 56789",
+      "medicalCouncilNumber": "KA-MC-2015-9923",
+      "stateMedicalCouncil": "Karnataka Medical Council",
+      "registrationYear": 2015,
+      "qualifications": "MBBS, MS (ENT / Otorhinolaryngology)",
+      "primarySpecialty": "ENT Specialist",
+      "subSpecialties": [
+        "Allergy & Sinusitis",
+        "Otology"
+      ],
+      "experienceYears": 9,
+      "currentHospitalOrClinic": "Varma ENT & Allergy Care Centre, Bengaluru",
+      "consultationFee": 450,
+      "isRetired": false,
+      "teleconsultationAdvisoryOnly": false,
+      "verificationStatus": "pending_verification",
+      "nmcVerificationVerified": false,
+      "documentName": "kmc_reg_certificate_2015.pdf",
+      "submittedAt": "2026-10-23T15:35:40.661Z",
+      "auditNotes": [
+        "Application submitted for credential verification.",
+        "Awaiting automated State Medical Council registry batch sync."
+      ]
+    }
+  ],
+  "consultationSessions": [
+    {
+      "id": "consult-demo-1",
+      "appointmentId": "apt-demo-1",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Rajeshwar Rao, MD",
+      "doctorSpecialty": "General Physician",
+      "patientName": "K. S. Sharma",
+      "scheduledTime": "Today, 10:30 AM",
+      "status": "waiting",
+      "durationSeconds": 0,
+      "clinicalNotes": "Follow-up consultation to evaluate recent fasting glucose and lipid profile parameters.",
+      "prescriptionSummary": "Continue Metformin 500mg OD with evening meal. Maintain low-glycemic dietary discipline.",
+      "followUpDate": "In 3 months with repeat HbA1c",
+      "vitalsDiscussed": {
+        "bp": "124/82 mmHg",
+        "pulse": "74 bpm",
+        "temperature": "98.4°F",
+        "weight": "72 kg"
+      }
+    }
+  ],
+  "abhaHealthRecords": [
+    {
+      "id": "abha-rec-1",
+      "careContextReference": "HIP-TEL-0042/OPD/2026/0921",
+      "hiType": "DiagnosticReport",
+      "documentName": "Comprehensive Metabolic & Lipid Profile",
+      "facilityName": "Care Community Hospital & Diagnostics",
+      "date": "2026-10-18",
+      "doctorName": "Dr. Rajeshwar Rao, MD",
+      "department": "Biochemistry & Pathology",
+      "status": "available",
+      "summary": "Fasting Plasma Glucose 106 mg/dL (mildly elevated), HbA1c 6.2% (pre-diabetic range), Total Cholesterol 188 mg/dL (desirable).",
+      "keyFindings": [
+        "Fasting Glucose: 106 mg/dL [Reference: 70-99 mg/dL] - Borderline High",
+        "HbA1c: 6.2% [Reference: < 5.7%] - Good glycemic control",
+        "Serum Creatinine: 0.9 mg/dL [Reference: 0.7-1.3 mg/dL] - Normal renal function"
+      ]
+    },
+    {
+      "id": "abha-rec-2",
+      "careContextReference": "HIP-TEL-0042/OPD/2026/0615",
+      "hiType": "OPConsultation",
+      "documentName": "Quarterly Hypertensive & Wellness Review",
+      "facilityName": "Care Community Hospital",
+      "date": "2026-06-15",
+      "doctorName": "Dr. Rajeshwar Rao, MD",
+      "department": "General Internal Medicine",
+      "status": "available",
+      "summary": "Blood pressure well controlled on lifestyle modifications and low-dose Telmisartan. Advised 45 min daily brisk walking.",
+      "keyFindings": [
+        "Sitting BP: 122/80 mmHg",
+        "Resting Heart Rate: 72 bpm",
+        "ECG: Normal sinus rhythm without ischemic changes"
+      ]
+    },
+    {
+      "id": "abha-rec-3",
+      "careContextReference": "APOLLO-HYD/LAB/2026/0302",
+      "hiType": "Prescription",
+      "documentName": "E-Prescription & Chronic Care Management Plan",
+      "facilityName": "Apollo Health City Pharmacy & OPD",
+      "date": "2026-03-02",
+      "doctorName": "Dr. Ramesh Gupta, MD, DM",
+      "department": "Cardiology Clinic",
+      "status": "available",
+      "summary": "Telmisartan 40mg once daily in morning. Vitamin D3 60k IU weekly for 8 weeks.",
+      "keyFindings": [
+        "Medication 1: Tab Telmisartan 40 mg PO OD (Mornings)",
+        "Medication 2: Cholecalciferol 60,000 IU Cap Weekly",
+        "Dietary Advice: DASH diet protocol with sodium restriction < 2g/day"
+      ]
+    },
+    {
+      "id": "abha-rec-4",
+      "careContextReference": "FORTIS-BLR/DISCHARGE/2025/1120",
+      "hiType": "DischargeSummary",
+      "documentName": "Elective Preventive Health Check & Stress Echo Summary",
+      "facilityName": "Fortis Hospital & Heart Centre",
+      "date": "2025-11-20",
+      "doctorName": "Dr. Ananya Rao, MD",
+      "department": "Cardiovascular Diagnostics",
+      "status": "available",
+      "summary": "Negative for inducible myocardial ischemia at 92% maximum predicted heart rate. Left ventricular ejection fraction 62%.",
+      "keyFindings": [
+        "Stress Echocardiogram: Negative for exercise-induced ischemia",
+        "Ejection Fraction: 62% (Normal LV systolic function)",
+        "Exercise Tolerance: 10.4 METs achieved on Bruce protocol"
+      ]
+    }
+  ]
+}

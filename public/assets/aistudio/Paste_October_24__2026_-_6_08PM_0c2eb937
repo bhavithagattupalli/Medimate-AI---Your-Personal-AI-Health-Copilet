@@ -1,0 +1,451 @@
+Writing
+MASTER PROMPT: MEDMIT AI — FULL-STACK AI HEALTHCARE PLATFORM
+1. Project Objective
+Upgrade my existing Medmit AI application into a fully functional, multilingual, AI-powered healthcare platform.
+IMPORTANT: First inspect the entire existing codebase, frontend, backend, database, authentication, API integrations, Report Scanner, AI Copilot, Wellness Dashboard, doctor modules, and existing UI.
+Do not rebuild the application from scratch. Preserve existing features and design. Implement the requested functionality inside the current architecture.
+Use real database persistence, real API integrations, reliable processing, proper error handling, and end-to-end testing. Do not create buttons that only look functional or features that use hardcoded data while claiming to be live.
+If an external API, service credential, professional verification source, or payment integration is unavailable, implement the working components that can be completed, provide a clearly labelled demo or pending state, and document the exact remaining configuration.
+2. Technology and Architecture
+Reuse the existing stack. If the application uses MERN, continue with:
+Frontend: React and TypeScript or the existing JavaScript setup.
+Backend: Node.js and Express.js.
+Database: MongoDB.
+AI integration: A configurable LLM API.
+Report extraction: PDF parsing, OCR, and vision-capable AI when appropriate.
+Speech recognition: A configurable multilingual speech-to-text provider.
+Voice responses: A configurable multilingual text-to-speech provider.
+Real-time communication: WebRTC with a compatible signaling service for video consultations.
+Notifications: In-app notifications, browser push, and scheduled reminders.
+Storage: Private object storage for reports, medical documents, and audio.
+Testing: Automated unit, API integration, security, and end-to-end tests.
+Reuse existing services and dependencies where possible.
+3. Report Scanner — Fast Extraction and Clear Report Details
+Improve the existing Report Scanner so users can upload medical reports and receive extracted information quickly and accurately.
+User workflow
+The user selects or uploads a PDF, image, or supported medical report.
+Validate the file and display upload progress immediately.
+Extract text directly from digital PDFs when possible.
+Use OCR for scanned PDFs and images.
+Process only the necessary pages or sections instead of unnecessarily sending an entire long document through an expensive AI workflow.
+Parse the extracted content into structured fields.
+Display the extracted information in the frontend as soon as reliable results are available.
+Allow the user to review, correct, and save the extracted data.
+Required report details
+Display the following when available in the uploaded report:
+Patient's full name.
+Age or date of birth, if present.
+Sex, if explicitly stated.
+Report ID or accession number.
+Hospital, diagnostic centre, or laboratory name.
+Referring doctor's name.
+Report date and test date.
+Test names and test categories.
+Measured values and units.
+Reference ranges printed on the report.
+Abnormal results, with high or low indicators where appropriate.
+Report impression or conclusion.
+Reported findings and possible concerns.
+Missing, unreadable, or uncertain fields.
+Source page or text evidence for extracted information.
+Clearly distinguish between the patient's name, referring doctor, reporting doctor, and laboratory details. Never infer an identity from missing information.
+Problem and findings summary
+Provide a clear, beginner-friendly explanation of:
+What the report measures.
+Which values are outside the stated reference ranges.
+What the report's written impression says.
+What the findings may mean in general terms.
+Which points should be discussed with a qualified doctor.
+Whether the document contains unreadable or incomplete information.
+Do not automatically diagnose a disease from a single laboratory value. Do not confuse an abnormal measurement with a confirmed medical condition.
+Speed and reliability requirements
+Avoid unnecessary sequential AI calls.
+Use direct text extraction before OCR where appropriate.
+Process independent pages or sections in parallel with concurrency limits.
+Use structured output schemas for extraction.
+Cache safe, non-sensitive processing results only where appropriate.
+Add request timeouts, cancellation, retries for transient errors, and upload-size limits.
+Use background jobs for lengthy reports and show actual processing progress.
+Display extracted sections incrementally when practical.
+Prevent duplicate processing when the same upload request is retried.
+Do not show a fake progress percentage or mark an incomplete report as complete.
+Show a clear processing error and retry option if extraction fails.
+Report identity and data protection
+Treat all uploaded report information as unverified until reviewed. Extracted names and report details must not be represented as independently verified identity.
+Store reports privately, enforce user ownership, and allow users to view, download, and delete their own reports. Do not send reports to an external AI provider without the required privacy disclosure and appropriate consent.
+4. AI Copilot — Five Fully Supported Languages
+Implement a multilingual conversational AI Copilot that supports:
+Telugu — తెలుగు
+Hindi — हिन्दी
+English
+Tamil — தமிழ்
+Kannada — ಕನ್ನಡ
+Language selection
+Add a clear language selector to the Copilot.
+Allow users to change language at any time.
+Persist the user's language preference.
+Automatically detect the language of a message when possible.
+Allow manual correction when language detection is wrong.
+Keep the conversation in the selected language unless the user requests otherwise.
+Use appropriate Unicode fonts and rendering for all five languages.
+All five languages must be implemented throughout the actual AI workflow, not just in the UI labels.
+Natural AI-human conversation
+Implement a conversational experience with this workflow:
+The user types or speaks a question.
+The application sends the message to the backend.
+The backend sends the user's question and relevant conversation history to the configured LLM.
+The AI generates a response in the selected language.
+The application displays the response and optionally speaks it aloud.
+The user asks a follow-up question.
+The AI uses relevant previous messages to maintain context.
+The conversation continues naturally until the user ends or starts a new chat.
+Example:
+User in Telugu: "నా రిపోర్ట్‌లో హీమోగ్లోబిన్ తక్కువగా ఉంది. దీని అర్థం ఏమిటి?"
+AI in Telugu: Explain what the report actually says, what information is missing, possible general interpretations, and when professional medical advice is appropriate.
+User: "దీనికి నేను ఏం చేయాలి?"
+AI: Provide cautious, context-appropriate general guidance, explain when clinical review is needed, and avoid prescribing treatment without appropriate medical oversight.
+Voice conversation
+Add microphone controls.
+Support recording, stop, cancel, transcript preview, and submission.
+Use a configured speech-to-text service that supports the selected language.
+Provide optional spoken AI responses using a text-to-speech service supporting that language.
+Allow the user to interrupt spoken output, pause playback, or switch back to text.
+Preserve conversation context across voice and text messages.
+Display the transcript and the generated response in the conversation history.
+Handle microphone permission denial, noisy audio, unsupported languages, network errors, and service failures gracefully.
+If the user chooses Telugu, Hindi, English, Tamil, or Kannada, verify that the speech services and configured LLM can support the selected language. Do not silently substitute a different language.
+Save voice transcripts and recordings only according to the user's consent and retention preferences.
+5. Emergency Call 108
+Replace the previous Call 112 button in the primary emergency interface with a prominently displayed Call 108 button, as requested.
+Requirements:
+Use an actual telephone link such as tel:108.
+On compatible mobile devices, tapping the button should invoke the native phone dialer.
+Keep the action accessible without requiring login, report upload, ABHA linking, or AI processing.
+Show a clear fallback on desktop or unsupported devices.
+Do not automatically call emergency services.
+Do not claim a call has connected merely because the telephone link was opened.
+Do not build a fake call interface that claims a real connection.
+Important India-specific configuration:
+Verify the intended deployment location and current official emergency-service routing.
+Configure 108 for the intended ambulance service and region.
+Clearly explain that 112 is India's integrated emergency number and may be the appropriate fallback where 108 is unavailable.
+If 108 does not operate in a target region, explain the limitation and present the appropriate verified emergency contact.
+Do not claim that 108 works in every region or that the app can confirm call completion.
+For life-threatening symptoms, make emergency calling immediately accessible. Do not delay the action with a chatbot conversation or form.
+6. Wellness Performance Dashboard
+Create a complete Wellness Performance section with the following modules.
+A. Personal Health Profile
+Include:
+Name and age, as supplied by the user.
+User-configured wellness goals.
+Activity preferences.
+Dietary preferences and allergies, if voluntarily provided.
+Sleep and activity goals.
+Reminder preferences.
+Selected language and accessibility preferences.
+Allow users to edit, save, and delete their preferences. Request appropriate consent for sensitive health information.
+B. Medication Schedule and Reminders
+Implement:
+Medication name.
+User-entered or clinician-provided dose instructions.
+Scheduled times.
+Start date and optional end date.
+Frequency.
+Reminder timezone.
+Taken, skipped, snoozed, and missed statuses.
+Reminder history and adherence summaries.
+Medication notifications
+Schedule reminders from saved medication records.
+Display in-app notifications at the configured time.
+Support browser push notifications when permission and push infrastructure are available.
+Provide a snooze action and a way to mark a dose as taken or skipped.
+Avoid duplicate reminders.
+Recalculate scheduled reminders safely when a user changes a medication schedule.
+Handle timezone changes and daylight-saving transitions where applicable.
+Display missed reminders when the user returns to the application.
+Do not imply that a browser notification is guaranteed to appear if the browser or device prevents delivery.
+Medication names and doses must come from user-entered or appropriately sourced instructions. AI must not independently prescribe or alter medication doses.
+C. Food Plan
+Implement a personalized food-planning module containing:
+Daily meal plan.
+Breakfast, lunch, dinner, and snack suggestions.
+Dietary preferences.
+Allergy and food restriction handling.
+General nutrition information.
+Meal schedule.
+Shopping-list generation, where useful.
+Clearly label AI-generated plans as general guidance. Do not claim a meal plan is clinically appropriate for a disease without suitable professional review.
+D. Fitness and Activity
+Include:
+Daily steps.
+Distance and activity duration where available.
+Activity goals.
+Walking and movement reminders.
+Exercise history.
+Weekly activity summaries.
+Progress charts.
+Use actual data from connected devices or user-entered activity. Do not invent step counts or claim to read device sensors when no integration exists.
+E. Exercise and Yoga
+Include:
+Walking.
+Stretching.
+Yoga.
+Breathing and relaxation exercises.
+Strength and flexibility activities.
+Beginner, intermediate, and advanced categories.
+Exercise duration and suggested frequency.
+Clear exercise instructions.
+Appropriate safety notes.
+Allow users to mark sessions as completed and persist activity history.
+F. Equipment and Other Wellness Tools
+Include optional equipment-based workouts, such as:
+Yoga mat.
+Resistance bands.
+Light dumbbells.
+Stationary bicycle.
+Bodyweight exercises requiring no equipment.
+Allow filtering by available equipment, ability level, and exercise preference.
+Do not require users to purchase equipment to use the wellness features.
+G. Future Prevention and Healthy Habits
+Include:
+User-configured preventive-care reminders.
+General health-screening information appropriate to available user context.
+Sleep and stress-management habits.
+Activity consistency.
+Wellness goals and progress.
+Follow-up reminders based on actual saved records.
+Avoid automatically recommending clinical screening tests without sufficient context. Encourage users to discuss personalized preventive-care decisions with a qualified healthcare professional.
+H. Wellness Performance Summary
+Provide:
+Daily and weekly progress.
+Completed activities.
+Medication reminder status.
+Sleep and activity information when available.
+Goal progress.
+Upcoming reminders.
+Personalized general wellness suggestions.
+Distinguish missing data from zero activity. Do not display fabricated metrics.
+7. Notifications Center
+Implement a functional notification system for:
+Medication reminders.
+Upcoming appointments.
+Wellness goals.
+Report processing completion.
+User-configured follow-up reminders.
+Important risk flags.
+Doctor verification status.
+Appointment confirmations and changes.
+Requirements:
+Notification bell with a real unread count.
+Notification panel and full notification history.
+Mark as read and mark all as read.
+Dismiss or delete notifications where appropriate.
+Persistent database records.
+Scheduled background jobs.
+Real-time updates when supported.
+Browser push integration with explicit permission.
+User preferences for notification categories and quiet hours.
+Do not expose detailed medical information on lock screens by default. Handle notifications securely and ensure that reminders are associated with the correct authenticated user.
+8. Doctor Registration and Professional Verification
+Create a separate Doctor Registration Portal for doctors, including retired doctors who wish to offer consultations.
+Doctor registration form
+Collect the minimum necessary information:
+Full legal name.
+Professional contact information.
+Date of birth or age, where necessary.
+Medical qualification.
+Medical college or awarding institution.
+Qualification year.
+State medical council or applicable registration authority.
+Medical registration number.
+Years of professional experience.
+Current professional status, including retired status where applicable.
+Specialization, if any.
+Practice history and relevant credentials.
+Consultation languages.
+Consultation type: online or in person.
+Consultation fee and availability.
+Supporting documents for verification.
+Do not expose sensitive identity documents publicly.
+Verification workflow
+Implement these distinct states:
+Draft.
+Submitted.
+Pending Verification.
+Verified.
+Rejected.
+More Information Required.
+Suspended.
+Verification process
+Validate required form fields.
+Validate file type and size.
+Securely store submitted documents.
+Check registration credentials against an authoritative medical registration source when an authorized integration or documented verification procedure is available.
+Record the verification source, timestamp, result, and reviewer where appropriate.
+Support authorized manual review if automated verification is unavailable.
+Notify the doctor about application status.
+Keep audit logs of verification decisions.
+IMPORTANT: Do not classify a doctor as fake merely because an external verification service is unavailable or a search returns no result.
+Only mark a credential as verified when sufficient authoritative evidence supports that decision. Otherwise use Pending Verification or Unable to Verify.
+Do not describe a person as a fraudulent doctor without appropriate evidence and review.
+Display verified professional credentials and verification status to patients without exposing private documents.
+Retired doctors
+Allow eligible retired doctors to register their professional history and credentials.
+Require appropriate confirmation of their current registration or authorization status and eligibility to practise, according to applicable rules, before enabling consultations.
+Retirement history or years of experience alone must not establish current eligibility to practise.
+9. Doctor Directory and Appointment Booking
+Create a searchable doctor directory using actual registered doctor profiles.
+Include:
+Doctor's name and verified status.
+Specialization.
+Qualifications.
+Years of experience.
+Consultation languages.
+Availability.
+Consultation type.
+Consultation fee.
+Supported booking slots.
+Allow patients to:
+Search and filter doctors.
+View a doctor's public profile.
+Select an available appointment.
+See the full fee before confirming.
+Book, cancel, or reschedule an appointment according to the configured policy.
+View booking history.
+Receive appointment reminders.
+Pricing
+Support configurable consultation fees, for example ₹400 or ₹500, based on the doctor's actual selected price and consultation type.
+Do not hardcode these amounts for all doctors.
+Show any applicable platform fee or additional charge before payment. Do not claim payment success unless the configured payment provider confirms it.
+Booking backend
+Prevent double booking.
+Enforce appointment-slot availability.
+Store appointment status and timestamps.
+Use timezone-aware scheduling.
+Apply cancellation and rescheduling rules.
+Send booking confirmations and reminders.
+Associate each booking with the correct patient and doctor.
+Protect patient information from unauthorized access.
+10. Online Doctor Consultations
+Implement real-time online consultations using a compatible WebRTC-based audio/video solution.
+Requirements:
+Appointment-linked consultation rooms.
+Secure session creation.
+Authenticated patient and doctor access.
+Camera and microphone permission handling.
+Join and leave controls.
+Mute/unmute.
+Camera on/off.
+Connection status.
+Call duration.
+Reconnection handling.
+Clear error states for unavailable devices or network failures.
+Consultation status tracking.
+Use a suitable signaling server or supported communication provider. Configure appropriate access controls, secure transport, and any necessary TURN infrastructure.
+Do not present a static screen as a live call. Do not claim a call is connected unless a real session has been established.
+Do not record consultations by default. If recording is explicitly supported, obtain appropriate consent and implement secure storage, access controls, and retention policies.
+Consultation workflow
+Patient selects a verified, eligible doctor.
+Patient chooses an available slot.
+Application confirms the booking.
+Patient pays, if payment is enabled and required.
+Doctor and patient receive appropriate notifications.
+At the scheduled time, both users can join the consultation.
+The system records appointment completion status.
+Any post-consultation notes are shared only through authorized workflows.
+11. Existing AI Copilot, Chat History, and User Data
+Preserve and extend the existing Copilot and data dashboard.
+Ensure:
+Persistent text conversation history.
+Voice transcript history.
+Securely retained audio files where consented.
+Report history.
+Wellness recommendation history.
+Notifications.
+Medication schedules and reminder records.
+Doctor bookings.
+ABHA mock-link status, if implemented in the existing project.
+Risk flags, if implemented in the existing project.
+Allow users to review, export, and delete eligible data. Apply authenticated backend ownership checks to every private resource.
+Maintain the existing ABDM-ready architecture and Mock ABHA workflow if those features are already implemented. Do not replace a genuine integration with mock functionality.
+12. Backend APIs and Data Models
+Inspect existing APIs and extend them instead of creating duplicate endpoints.
+Suggested modules:
+Reports and report-extraction jobs.
+AI conversations and voice processing.
+Wellness profiles and recommendations.
+Medication schedules and reminders.
+Notifications and delivery status.
+Fitness and exercise records.
+Doctor registrations and verification.
+Doctor directory and availability.
+Appointments and payments.
+Real-time consultation sessions.
+User data export and deletion.
+Create or extend suitable database models for:
+MedicalReport.
+ReportExtractionJob.
+Conversation.
+Message.
+VoiceTranscript.
+VoiceRecording.
+WellnessProfile.
+MedicationSchedule.
+MedicationReminder.
+FitnessActivity.
+WellnessRecommendation.
+Notification.
+DoctorProfile.
+DoctorCredential.
+VerificationRecord.
+Appointment.
+ConsultationSession.
+PaymentRecord, if payments are implemented.
+Use indexes, references, validation, timestamps, and safe update operations as appropriate.
+13. Security and Privacy
+Enforce authentication and resource ownership in the backend.
+Use role-based access control for patients, doctors, and authorized administrators.
+Keep AI, speech, storage, payment, and communication credentials on the server.
+Use secure transport and private file storage.
+Validate uploaded medical reports and doctor documents.
+Apply file-size limits and safe file-processing practices.
+Avoid logging sensitive medical data unnecessarily.
+Protect against duplicate requests, abuse, and excessive API usage.
+Obtain appropriate consent for AI processing, audio retention, and external sharing.
+Implement retention and deletion workflows.
+Keep audit trails for professional verification and sensitive administrative actions.
+Follow applicable Indian data-protection and healthcare requirements.
+Do not claim regulatory compliance, certification, or professional verification without evidence.
+14. Testing and Acceptance Criteria
+Implement and execute tests that verify:
+Medical report extraction returns accurate fields when they are present in the document.
+Patient and doctor identities are not confused.
+Long-report processing has meaningful progress, cancellation, and failure handling.
+All five Copilot languages work through the actual LLM and configured speech services.
+Voice and text messages preserve conversation context.
+Medication reminders use saved schedules and the correct timezone.
+Wellness performance reflects actual stored or connected data.
+Notification counts and reminder statuses are accurate.
+Doctor verification status is evidence-based and auditable.
+Unverified doctors cannot be presented as verified.
+Appointment slots cannot be double booked.
+Consultation rooms require authorized access.
+Payments are never marked successful without provider confirmation.
+Call 108 opens the supported dialing interface and does not falsely report a connected call.
+Private records cannot be accessed by other users.
+Existing functionality remains operational.
+Use mock providers for automated tests when external credentials are unavailable. Clearly distinguish mock tests from actual sandbox or production integration tests.
+15. Implementation Process
+Work incrementally:
+Phase 1: Inspect the repository and create an implementation plan.
+Phase 2: Improve Report Scanner extraction speed, accuracy, and structured results.
+Phase 3: Implement five-language AI Copilot and voice conversation workflows.
+Phase 4: Implement Wellness Performance, medication schedules, and notifications.
+Phase 5: Implement doctor registration, credential verification, and doctor directory.
+Phase 6: Implement appointment booking, payment integration where configured, and real online consultations.
+Phase 7: Replace the primary Call 112 interface with the requested Call 108 action, using region-appropriate verified emergency guidance.
+Phase 8: Integrate database persistence, authorization, privacy controls, and any existing ABDM or Mock ABHA features.
+Phase 9: Run automated tests, fix regressions, and verify the complete workflows.
+Phase 10: Provide setup instructions, environment variables, required external service configuration, test results, and a list of any remaining limitations.
+Do not stop after generating a plan or designing the interface. Make the actual code changes in the existing repository, run the available checks, and report honestly which features are working and which require external configuration.
+FINAL GOAL: Deliver a functioning Medmit AI healthcare platform with fast medical report extraction, a multilingual AI-human conversational Copilot, reliable medication and wellness reminders, real fitness tracking where data sources are available, verified doctor registration, bookable appointments, actual online consultations, and a working emergency dialing action.
